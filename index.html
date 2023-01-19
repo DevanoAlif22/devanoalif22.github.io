@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surabaya Dev</title>
+    <!-- botstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@700&family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <!-- styke css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- swiper js -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" href="img/logodomain.png">
+</head>
+<body>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Formulir Pendaftaran</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nama</label>
+          <input autocomplete="off" required type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Alamat</label>
+          <input autocomplete="off" required type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input autocomplete="off" required type="email" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Alasan masuk</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">File CV</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="file">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        <button type="button" class="btn btn-primary">Kirim</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end modal -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light " id="beranda">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo" src="img/logo2.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-between ps-lg-5 pe-lg-5" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a onclick='scroll2("beranda");' class="nav-link active" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a onclick='scroll2("tentang");' class="nav-link" href="#">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a onclick='scroll2("penerimaan");' class="nav-link" href="#">Penerimaan</a>
+              </li>
+              <li class="nav-item">
+                <a onclick='scroll2("seleksi");' class="nav-link ">Seleksi</a>
+              </li>
+              <li class="nav-item">
+                <a onclick='scroll2("tim");'class="nav-link ">Tim</a>
+              </li>
+            </ul>
+            <div class="btn-daftar">
+              <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="daftar">Daftar Sekarang</button>
+            </div>
+         
+        </div>
+    </nav>
+    <!-- end  navbar -->
+
+    <!-- home header -->
+            <div class="container-fluid home-container" style="display: flex; justify-content: center;">
+                <div class="row home">
+                    <div class="col p-3 d-flex flex-column justify-content-center">
+                        <h1>Hello Sobat Dev!</h1>
+                        <h4>Tim SurabayaDev Generasi 3.0</h4>
+                        <p>Selamat datang di kumpulan orang yang suka dengan update teknologi, belajar, berbagi dan suka berkontribusi</p>
+                        <div class="sosmed">
+                            <button onclick='instagram();' class="daftar" style="margin-right: 10px;" ><i class=" fa-brands fa-instagram"></i> Instagram</button>
+                            <button onclick='youtube();' class="daftar" style="margin-right: 10px;"><i class="fa-brands fa-youtube"></i> Youtube</button>
+                            <button onclick='wa();' class="daftar" ><i class="fa-brands fa-whatsapp"></i></i> Whatsapp</button>
+                        </div>
+                    </div>
+                    <div class="col col2-home">
+                        <img class="logo2" src="img/animasi.png" alt="">
+                    </div>
+                </div>
+            </div>
+    <!-- end home header -->
+    
+    <!-- about -->
+    <div class="container-fluid about-container" style="display: flex; justify-content: center;" id="tentang">
+        <div class="row about">
+            <h2 class="tentang" style="align-items: center; text-align: center;">Tentang Surabaya Dev <img style="width: 100px;" src="/img/bintang2.png" alt=""></h2>
+            <div class="col p-lg-2 col1-about" style="display: flex; justify-content: center;">
+              <div class="btn-tentang" style="display: flex; flex-direction: column; border: 1px solid black; border-radius: 10px; width: 220px; height: 200px;">
+                <button class="awalmula" style="margin: 10px;" href=""><i class="fa-solid fa-clock-rotate-left"></i> Awal mula</button>
+                <button  class="visi" style="margin: 10px;" href=""><i class="fa-solid fa-braille"></i> Visi dan Misi</button>
+                <button  class="kegiatan" style="margin: 10px;" href=""><i class="fa-solid fa-clipboard"></i> Kegiatan</button>
+              </div>
+            </div>
+            <div class="col p-lg-2 col2-about">
+              <div class="con-tentang">
+                <div class="con-tentang2">
+                  <div class="con-tentang3" style="display: flex;">
+                    <!-- awal mula -->
+                    <div class="awalmulaisi">
+                      <div class="card card-body" >
+                       <div class="header-card" style="display: flex;">
+                        <h3>2014</h3>
+                        <img src="/img/bg2014.png" alt="">
+                       </div>
+                      <p>Surabaya Dev lahir dan muncul pada tahun 2014</p>
+                    </div>
+                    <div class="card card-body" >
+                        <div class="header-card" style="display: flex;">
+                          <h3>2017 </h3>
+                          <img src="/img/bg2017.png" alt="">
+                         </div>
+                          <p>Semakin berkembang dengan mengadakan kegiatan</p>
+                    </div>
+                    <div class="card card-body" >
+                      <div class="header-card" style="display: flex;">
+                        <h3>2018</h3>
+                        <img src="/img/bg2018.png" alt="">
+                       </div>
+                        <p>Tim SurabayaDev Generasi 1.0 di bentuk</p>
+                    </div>
+                   <div class="card card-body" >
+                      <div class="header-card" style="display: flex;">
+                       <h3>2020 </h3>
+                       <img src="/img/bg2020.png" alt="">
+                      </div>
+                      <p>Tim SurabayaDev Generasi 2.0 Online Version</p>
+                    </div>
+                   <div class="card card-body" >
+                      <div class="header-card" style="display: flex;">
+                       <h3>2023 </h3>
+                       <img src="/img/bg2023.png" alt="">
+                      </div>
+                      <p>Genarasi 3.0 kamu masuk dalam sejarah ini</p>
+                    </div>
+                    </div>
+                    <!-- end awal mula -->
+                    
+                    <!-- visi -->
+                    <div class="visiisi">
+                      <div class="card card-body" >
+                       <div class="header-card" style="display: flex;">
+                        <h4>Wadah Belajar</h4>
+                       </div>
+                      <p>Menjadi wadah belajar pegiat IT untuk bisa terus update mengenai tech industri saat ini</p>
+                    </div>
+                    <div class="card card-body" >
+                        <div class="header-card" style="display: flex;">
+
+                          <h3>Koneksi</h3>
+                         </div>
+                          <p>Memperluas relasi melalui komunitas untuk menjalin kebermanfaatan</p>
+                    </div>
+                    <div class="card card-body" >
+                      <div class="header-card" style="display: flex;">
+                        <h3>Berbagi Ilmu</h3>
+                       </div>
+                        <p>Saling berbagi ilmu, pengalaman maupun wawasan tentang teknologi</p>
+                    </div>
+                    </div>
+                    <!-- end visi -->
+
+                    <!-- kegiatan -->
+                    <div class="kegiatanisi">
+                      <div class="card card-body" >
+                       <div class="header-card" style="display: flex;">
+                        
+                        <h4>01 Meetup</h4>
+                       </div>
+                      <p>Kegiatan bersama topik teknologi & programming secara online atau offline</p>
+                    </div>
+                    <div class="card card-body" >
+                        <div class="header-card" style="display: flex;">
+                          
+                          <h3>02 Upgrade Skill</h3>
+                         </div>
+                          <p>Pelatihan internal pengurus berupa workshop untuk pengembangan diri seputar teknikal programing</p>
+                    </div>
+                    <div class="card card-body" >
+                      <div class="header-card" style="display: flex;">
+                        
+                        <h3>03 Kolaborasi</h3>
+                       </div>
+                        <p>Sinergi antar komunitas guna untuk mendukung kegiatan komunitas lokal teknologi di Indonesia</p>
+                    </div>
+                    </div>
+                    <!-- end kegiatan -->
+                    
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+            
+    <!-- end about -->
+
+    <!-- penerimaan -->
+    <div class="container-fluid penerimaan-container"  style="display: flex; justify-content: center;" id="penerimaan">
+      <!-- ini di atur -->
+      <div class="row penerimaan">
+          <h3>Surabaya Dev Recuirtment <img src="/img/sound2.png" alt=""></h3>
+          <div class="col col1-penerimaan d-flex justify-content-center">
+              <div class="colapse-penerimaan" style="display: flex; flex-direction: column; border: 1px solid black; border-radius: 10px; width: 400px; height: 520px;">
+              <!-- sosmed -->
+              <div class="collapse" id="sosmed">
+                <div class="">
+                    <h5 style="">Social Media & Content Creative</h5>
+                    <div class="kriteria" style="padding: 0px 20px;">
+                      <h6 style="font-size: 15px;"> <i class="fa-solid fa-user"></i> Kriteria</h6>
+                      <p>1. Pernah menggunakan tools design</p>
+                      <p>2. Update dengan trend dunia tech</p>
+                      <p>3. Terbiasa dengan sosmed</p>
+                      <p>4. Kreatif dalam membuat konten</p>
+                      <p>5. Dapat merencanakan jam tayang</p>
+                    </div>
+                    <div class="kriteria" style="padding: 0px 20px;">
+                      <h6 style="font-size: 15px;"> <i class="fa-solid fa-envelope"></i> Wajib Dikerjakan!</h6>
+                      <h6>Buatlah 1 konten dari pilihan content segment Surabaya Dev</h6>
+                    </div>
+                    <div class="kriteria" style="padding: 0px 20px;">
+                      <h6 style="font-size: 15px;"> <i class="fa-solid fa-link"></i> Link Dokumen</h6>
+                        <button type="button" class="btn btn-primary">Lihat Dokumen</button>
+                    </div>
+                </div>
+              </div>
+              <!-- end sosmed -->
+              <!-- design -->
+              <div class="collapse" id="design">
+                <div class="">
+                  <h5 style="">Graphic Designer</h5>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-user"></i> Kriteria</h6>
+                    <p>1. Pernah menggunakan tools design</p>
+                    <p>2. Update dengan trend dunia tech</p>
+                    <p>3. Senang dengan desain baru</p>
+                    <p>4. Dapat bekerja sebagai tim</p>
+                  </div>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-envelope"></i> Wajib Dikerjakan!</h6>
+                    <h6>Buatlah 1 konten dari pilihan content segment Surabaya Dev</h6>
+                  </div>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-link"></i> Link Dokumen</h6>
+                      <button type="button" class="btn btn-primary">Lihat Dokumen</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end design -->
+              <!-- podcast -->
+              <div class="collapse" id="podcast">
+                <div class="">
+                  <h5 style="">Podcaster / Host / Streamer</h5>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-user"></i> Kriteria</h6>
+                    <p>1. Mempunyai service of public speaking</p>
+                    <p>2. Interaktif dan menghibur</p>
+                    <p>3. Sangat terbuka untuk belajar</p>
+                    <p>4. Bisa mengolah video</p>
+                  </div>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-envelope"></i> Wajib Dikerjakan!</h6>
+                    <h6>Buatlah 1 konten dari pilihan content segment Surabaya Dev</h6>
+                  </div>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-link"></i> Link Dokumen</h6>
+                      <button type="button" class="btn btn-primary">Lihat Dokumen</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end podcast -->
+              <!-- web -->
+              <div class="collapse" id="web">
+                <div class="">
+                  <h5 style="">Dev team (Web Dev / mentor)</h5>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-user"></i> Kriteria</h6>
+                    <p>1. Mau belajar web dasar</p>
+                    <p>2. Familiar dengan javascript</p>
+                    <p>3. Familiar dengan PHP</p>
+                    <p>4. Dapat bekerja secara tim</p>
+                  </div>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-envelope"></i> Wajib Dikerjakan!</h6>
+                    <h6>Buatlah 1 konten dari pilihan content segment Surabaya Dev</h6>
+                  </div>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-link"></i> Link Dokumen</h6>
+                      <button type="button" class="btn btn-primary">Lihat Dokumen</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end web -->
+              <!-- event -->
+              <div class="collapse" id="event">
+                <div class="">
+                  <h5 style="">Management Event Community</h5>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-user"></i> Kriteria</h6>
+                    <p>1. Suka belajar organizer event</p>
+                    <p>2. Update dengan trend dunia tech</p>
+                    <p>3. Bisa menyusun proposal</p>
+                    <p>4. Kreatif dalam membuat konten</p>
+                  </div>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-envelope"></i> Wajib Dikerjakan!</h6>
+                    <h6>Buatlah 1 konten dari pilihan content segment Surabaya Dev</h6>
+                  </div>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-link"></i> Link Dokumen</h6>
+                      <button type="button" class="btn btn-primary">Lihat Dokumen</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end event -->
+              <!-- admin -->
+              <div class="collapse" id="admin">
+                <div class="">
+                  <h5 style="">Admin dan Logistik</h5>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-user"></i> Kriteria</h6>
+                    <p>1. Terbiasa menggunakan sosmed</p>
+                    <p>2. Update dengan trend dunia tech</p>
+                    <p>3. Terbiasa dengan sosmed</p>
+                    <p>4. Suka berinteraksi dengan follower</p>
+                  </div>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-envelope"></i> Wajib Dikerjakan!</h6>
+                    <h6>Buatlah 1 konten dari pilihan content segment Surabaya Dev</h6>
+                  </div>
+                  <div class="kriteria" style="padding: 0px 20px;">
+                    <h6 style="font-size: 15px;"> <i class="fa-solid fa-link"></i> Link Dokumen</h6>
+                      <button type="button" class="btn btn-primary">Lihat Dokumen</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end admin -->
+          </div>
+          </div>
+          <div class="col col2-penerimaan d-flex justify-content-center">
+            <div class="col2-penerimaan2" style="display: flex; flex-direction: column; border-radius: 10px; width: 400px; height: 520px; padding: 10px; border: 1px solid;">
+              <h3>Posisi yang dibuka</h3>
+              <div class="btn-penerimaan">
+                <button data-bs-toggle="collapse" href="#sosmed" class="btn-penerimaan2 btn-sosmed">
+                  <img src="/img/logososmed.png" alt="">
+                  <p>Social Media & Content Creative</p>
+                </button>
+                <button  data-bs-toggle="collapse" href="#design" class="btn-penerimaan2 btn-design">
+                  <p>Graphic Designer</p>
+                  <img src="/img/logodesign.png" alt="">
+                </button>
+                <button  data-bs-toggle="collapse" href="#podcast"  class="btn-penerimaan2 btn-podcast">
+                  <img src="/img/logopodcast.png" alt="">
+                  <p>Podcaster / Host / Streamer</p>
+                </button>
+                <button  data-bs-toggle="collapse" href="#web" class="btn-penerimaan2 btn-web">
+                  <p>Dev team (Web Dev / mentor)</p>
+                  <img src="/img/logoweb.png" alt="">
+                </button>
+                <button  data-bs-toggle="collapse" href="#event"  class="btn-penerimaan2 btn-event">
+                  <img src="/img/logoevent.png" alt="">
+                  <p>Management Event Community</p>
+                </button>
+                <button  data-bs-toggle="collapse" href="#admin"  class="btn-penerimaan2 btn-logistik">
+                  <p>Admin & Logistik</p>
+                  <img src="/img/logologistik.png" alt="">
+                </button>
+              </div>
+          </div>
+          </div>
+        </div>
+    </div>
+    <!-- end penerimaan -->
+
+
+    <!-- seleksi  -->
+    <div class="container-fluid con-seleksi justify-content-center" style="padding-bottom: 10px;  margin-bottom: 20px;" id="seleksi">
+      <div class="row seleksi" style="width: 90%;display: flex; justify-content: center;">
+        <h3>Timeline Seleksi</h3>
+        <div class="col" style="margin: 10px; display: flex; justify-content: center;"><div class="tes" style="width: 200px; height: 200px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; background-color: #fade4e; border-radius: 10px;"><img src="/img/catatan.png" alt=""><h5 style="padding: 5px 0px;">REGISTRASI</h5><p>07 - 20 Januari 2023</p></div></div>
+        <div class="col" style="margin: 10px; display: flex; justify-content: center;"><div class="tes" style="width: 200px; height: 200px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; background-color: #fb7ecf; border-radius: 10px;"><img src="/img/interview.png" alt=""><h5 style="padding: 5px 0px;">INTERVIEW</h5><p>23 - 28 Januari 2023</p></div></div>
+        <div class="col" style="margin: 10px; display: flex; justify-content: center;"><div class="tes" style="width: 200px; height: 200px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; background-color: #91d5e3; border-radius: 10px;"><img src="/img/pengumuman.png" alt=""><h5 style="padding: 5px 0px;">PENGUMUMAN</h5><p>31 Januari 2023</p></div></div>
+        <div class="col" style="margin: 10px; display: flex; justify-content: center;"><div class="tes" style="width: 200px; height: 200px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; background-color: #008001; border-radius: 10px;"><img src="/img/boarding.png" alt=""><h5 style="padding: 5px 0px;">ON BOARDING</h5><p>13 Februari 2023</p></div></div>
+      </div>
+    </div>
+
+    <!-- end seleksi  -->
+
+    <!-- tim -->
+    <div class="container-fluid" id="tim">
+      <h1 class="judul" style="text-align:center">Tim Surabaya Dev</h1>
+    <div class="slide-container swiper" >
+      <div class="slide-content" >
+          <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                  <div class="image-content">
+                      <span class="overlay"></span>
+
+                      <div class="card-image">
+                          <img src="img/orang1.jpeg" alt="" class="card-img">
+                      </div>
+                  </div>
+
+                  <div class="card-content">
+                      <h2 class="name">Haris Hidayat</h2>
+                      <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                      <button class="button">View More</button>
+                  </div>
+              </div>
+              <div class="card swiper-slide">
+                  <div class="image-content">
+                      <span class="overlay"></span>
+
+                      <div class="card-image">
+                          <img src="img/orang2.jpeg" alt="" class="card-img">
+                      </div>
+                  </div>
+
+                  <div class="card-content">
+                      <h2 class="name">Dewi ananta</h2>
+                      <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                      <button class="button">View More</button>
+                  </div>
+              </div>
+              <div class="card swiper-slide">
+                  <div class="image-content">
+                      <span class="overlay"></span>
+
+                      <div class="card-image">
+                          <img src="img/orang3asli.jpeg" alt="" class="card-img">
+                      </div>
+                  </div>
+
+                  <div class="card-content">
+                      <h2 class="name">Ryan andika</h2>
+                      <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                      <button class="button">View More</button>
+                  </div>
+              </div>
+              <div class="card swiper-slide">
+                  <div class="image-content">
+                      <span class="overlay"></span>
+
+                      <div class="card-image">
+                          <img src="img/orang4asli.jpeg" alt="" class="card-img">
+                      </div>
+                  </div>
+
+                  <div class="card-content">
+                      <h2 class="name">Ranti andayani</h2>
+                      <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                      <button class="button">View More</button>
+                  </div>
+              </div>
+              <div class="card swiper-slide">
+                  <div class="image-content">
+                      <span class="overlay"></span>
+
+                      <div class="card-image">
+                          <img src="img/orang5.jpeg" alt="" class="card-img">
+                      </div>
+                  </div>
+
+                  <div class="card-content">
+                      <h2 class="name">Bagas dani</h2>
+                      <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                      <button class="button">View More</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+  </div>
+  </div>
+  
+    <!-- end tim -->
+
+    <!-- footer  -->
+    <div class="container-fluid con-seleksi justify-content-center" style="margin-top: 30px; background-color: #000000d2;">
+      <div class="row seleksi" style="width: 90%;display: flex; justify-content: center;">
+        <div class="col" style="margin: 10px; display: flex; justify-content: center;"><div class="tes" style="width: 450px; height: 150px;  border-radius: 10px;">
+          <h2>SURABAYA DEV</h2>
+          <p><a href="#">Tentang</a>
+          <a href="#">Support</a>
+          <a href="#">Penerimaan</a>
+          <a href="#">Tim</a></p>
+        </div></div>
+        <div class="col" style="margin: 10px; display: flex; justify-content: center; padding-top: 60px;"><div class="tes" style="width: 150px; height: 150px;  border-radius: 10px;">
+          <div class="isi" style="display: flex; flex-direction: column; justify-content: space-around; ">
+            <div class="icon" style="display: flex;margin-left: 40px; margin-bottom: 20px;">
+              <i style="color: white; margin-right: 10px;" class="fa-xl fa-brands fa-whatsapp"></i>
+              <i style="color: white; margin-right: 10px;" class="fa-xl fa-brands fa-instagram"></i>
+              <i style="color: white; margin-right: 10px;" class="fa-xl fa-brands fa-twitter"></i>
+            </div>
+            <p style="color: white;">@devanorama123@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end footer  -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+ 
+    <script>
+       
+var swiper = new Swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        },
+        950: {
+            slidesPerView: 3,
+        },
+    },
+  });
+
+    </script>
+  </body>
+</html>
