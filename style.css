@@ -219,11 +219,13 @@ display: none;
     background-color: #b8ff65;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 10px 0px;
+    height: 530px;
 }
 .col2-penerimaan2 {
     background-color: white;
     margin: 10px 0px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 530px;
 }
 .penerimaan {
     width: 70%;
