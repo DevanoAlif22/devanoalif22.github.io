@@ -379,17 +379,6 @@ br {
   }
 }
 
-/* Keyframes untuk animasi putar */
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg); /* Mulai dari 0 derajat rotasi */
-  }
-  100% {
-    transform: rotate(
-      360deg
-    ); /* Selesai dengan 360 derajat rotasi (satu putaran) */
-  }
-}
 @keyframes visible {
   0% {
     opacity: 0; /* Mulai dari 0 derajat rotasi */
@@ -403,22 +392,9 @@ br {
 }
 
 @media (max-width: 768px) {
-  /* Ketika layar ≤ 768px (sm) */
-  .about-img-wrap {
-    flex-direction: column; /* Mengubah tata letak menjadi kolom */
-    margin-top: 25px;
-  }
   .about-img {
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  /* .header h1 {
-    font-size: 25px;
-  } */
-  .mobile-br {
-    display: block;
-    content: "\A";
-    white-space: pre;
   }
 }
 @media (max-width: 520px) {
