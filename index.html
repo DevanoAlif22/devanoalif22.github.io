@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Devano</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio - Devano</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
-      rel="stylesheet"
+      rel="icon"
+      type="image/x-icon"
+      href="/img/fav.png"
+      style="border-radius: 100px"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <style>
-      p {
-        background-position: center;
-      }
-    </style>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#"><b>DEVANO</b></a>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container p-3">
+        <a class="navbar-brand" href="#"
+          ><b>Devano <span style="color: #fbc464"> Alif Ramadhan</span></b></a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -43,7 +38,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars fa-2xl" style="color: white"></i>
         </button>
         <div
           class="collapse navbar-collapse justify-content-end"
@@ -59,682 +54,802 @@
               <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#gallery">Gallery</a>
+              <a class="nav-link active" href="#services">Service</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#video">Video</a>
+              <a class="nav-link active" href="#skill">My Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#file">File</a>
+              <a class="nav-link active" href="#work">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact Me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="container pb-5 pt-5 header" id="home">
-      <div class="row d-flex" style="height: 80vh">
-        <div class="col-6 m-auto">
-          <h1>HI</h1>
-          <h1>
-            I'am <b class="change-color" style="color: #3e6ff4">Devano</b>
+    <div class="container container-hero" style="height: 90vh; padding: 20px">
+      <div class="row hero">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-duration="500">
+          <h2 style="margin-top: 20px">Hello, My name is</h2>
+          <h1>Devano <span style="color: #fbc464"> Alif Ramadhan</span></h1>
+          <h1 style="padding-bottom: 20px">
+            I'am a Web Developer <span style="color: #fbc464"> & </span> Event
+            Moderator
           </h1>
-          <h1 class="">
-            Fullstack <br />
-            <div class="typing">Web Developer</div>
-          </h1>
-          <a
-            href="https://wa.me/62895366141915"
-            class="btn button-contact"
-            style="margin-bottom: 100px"
+          <div class="cv" style="margin-bottom: 30px">
+            <a href="ATS CV DEVANO FIX.pdf" class="download"
+              ><b>Download CV</b></a
+            >
+            <a href="Mailto:devanorama123@gmail.com" class="talk"
+              ><b
+                ><span style="margin-right: 4px">Let's Talk</span>
+                <i class="fa-solid fa-phone" style="color: #fbc464"></i></b
+            ></a>
+          </div>
+        </div>
+        <div
+          class="col-lg-6 d-flex wrap-profil"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
+          <img class="profil" src="/img/profil.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div style="width: 100%; background-color: #44285b" id="about">
+      <div class="container" style="margin-bottom: 30px; width: 100%">
+        <div class="row pt-5" style="padding-bottom: 100px">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="500">
+            <h1 style="color: white; margin-top: 20px; margin-bottom: 30px">
+              About <span style="color: #fbc464">Me</span>
+            </h1>
+            <p style="color: white; font-size: 20px; text-align: justify">
+              Saya merupakan seorang mahasiswa aktif di program studi Sistem
+              Informasi Institut Teknologi Adhi Tama Surabaya dengan minat yang
+              tinggi di bidang
+              <span style="color: #fbc464">Website Developer</span>. Saya
+              memiliki keahlian dalam
+              <span style="color: #fbc464">pemrograman website</span> dan
+              pengalaman dalam
+              <span style="color: #fbc464">merancang antarmuka website</span>.
+              Saya sangat antusias berkontribusi pada pengembangan solusi
+              digital yang
+              <span style="color: #fbc464">inovatif dan kreatif</span>. Saya
+              mengutamakan hasil dan memastikan setiap tugas yang saya tangani
+              diselesaikan dengan baik dan tepat waktu.
+            </p>
+          </div>
+          <div
+            class="col-lg-6 d-flex justify-content-end"
+            data-aos="fade-up"
+            data-aos-duration="500"
           >
-            Contact
-          </a>
-          <div class="d-flex">
-            <a style="color: black" href="https://www.tiktok.com/@devanooo22"
-              ><i class="icon-sosmed fa-brands fa-tiktok fa-2x me-4"></i
-            ></a>
-            <a
-              style="color: black"
-              href="https://www.youtube.com/@devanoaliframadhan2589"
-            >
-              <i class="icon-sosmed fa-brands fa-youtube fa-2x me-4"></i
-            ></a>
-            <a
-              style="color: black"
-              href="https://www.instagram.com/devanoalif_/?next=%2F"
-            >
-              <i class="icon-sosmed fa-brands fa-instagram fa-2x me-4"></i
-            ></a>
-          </div>
-        </div>
-        <div class="col-6 m-auto d-flex justify-content-end">
-          <img src="img/kotakkotak.png" class="kotak" alt="" />
-          <div class="home__img">
-            <svg
-              class="home__blob"
-              viewBox="0 0 479 467"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <mask id="mask0" mask-type="alpha">
-                <path
-                  d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
-                />
-              </mask>
-              <g mask="url(#mask0)">
-                <path
-                  d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
-                />
-                <image
-                  class="home__blob-img"
-                  x="50"
-                  y="60"
-                  href="img/profil2.png"
-                />
-              </g>
-            </svg>
+            <img class="garis2" src="/img/garis2.png" alt="" />
           </div>
         </div>
       </div>
-      <div class="down">
-        <i class="icon-down fa-solid fa-angles-down fa-2x"></i>
-      </div>
-    </header>
+    </div>
 
-    <main>
-      <!-- ABOUT -->
-      <section
-        id="about"
-        class="about container pt-4 pb-5"
-        style="margin-bottom: 40px"
+    <div class="container" style="padding-bottom: 80px" id="services">
+      <h1
+        class="pt-5"
+        style="margin-bottom: 30px; text-align: center; color: white"
       >
-        <h3 class="center" style="color: #3e6ff4">About</h3>
-        <div class="row biodata-wrap">
-          <div class="col-lg-6 d-flex justify-content-center">
-            <div class="row m-auto d-flex justify-content-center">
-              <div class="col-4 about-img"></div>
-              <div class="col-4 about-img"></div>
-              <div class="col-4 about-img"></div>
-            </div>
+        My <span style="color: #fbc464">Services</span>
+      </h1>
+      <div class="row d-flex justify-content-center">
+        <div class="col-4 box" data-aos="fade-up" data-aos-duration="500">
+          <div
+            style="text-align: center; align-items: center; margin-top: 25px"
+          >
+            <img
+              src="/img/fe.svg"
+              style="width: 100px; margin-top: 15px; margin-bottom: 10px"
+              alt=""
+            />
+            <h4 style="color: white; text-align: center; margin-bottom: 30px">
+              Interactive Frontend Development
+            </h4>
           </div>
-          <div class="col-lg-6 p-sm-3" style="padding-top: 50px">
-            <div class="">
-              <div
-                id="carouselExampleControls"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <h4 class="center mb-4">Biodata</h4>
-                    <div style="margin-bottom: 20px">
-                      <div class="biodata d-flex">
-                        <h4>Nama :</h4>
-                        <p>Devano Alif Ramadhan</p>
-                      </div>
-                      <div class="line"></div>
-                      <div class="biodata d-flex">
-                        <h4>Alamat :</h4>
-                        <p>Jl Ke hatimu, Sidoarjo</p>
-                      </div>
-                      <div class="line"></div>
-                      <div class="biodata d-flex">
-                        <h4>Mahasiswa :</h4>
-                        <p>Sistem Informasi ITATS</p>
-                      </div>
-                      <div class="line"></div>
-                      <div class="biodata d-flex">
-                        <h4>Telepon :</h4>
-                        <p>0895366141915</p>
-                      </div>
-                      <div class="line"></div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <h4 class="center mb-4">Keahlian</h4>
-                    <div style="height: 42vh">
-                      <div class="biodata d-flex">
-                        <h4>
-                          <i class="fa-solid fa-globe me-3 fa-2"></i> Web Design
-                        </h4>
-                      </div>
-                      <div class="loading-bar">
-                        <div class="progress progress-1" id="progress"></div>
-                      </div>
-                      <div class="biodata d-flex">
-                        <h4>
-                          <i class="fa-brands fa-html5 me-3 fa-2"></i> Website
-                          Markup
-                        </h4>
-                      </div>
-                      <div class="loading-bar">
-                        <div class="progress progress-2" id="progress"></div>
-                      </div>
-                      <div class="biodata d-flex">
-                        <h4>
-                          <i class="fa-solid fa-images me-3 fa-2"></i> Photoshop
-                        </h4>
-                      </div>
-                      <div class="loading-bar">
-                        <div class="progress progress-3" id="progress"></div>
-                      </div>
-                      <div class="biodata d-flex">
-                        <h4>
-                          <i class="fa-solid fa-palette me-3 fa-2"></i> Canva
-                        </h4>
-                      </div>
-                      <div class="loading-bar">
-                        <div class="progress progress-4" id="progress"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleControls"
-                  data-bs-slide="prev"
-                >
-                  <span aria-hidden="true"
-                    ><i class="fa-solid fa-angle-left fa-2x"></i>
-                  </span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleControls"
-                  data-bs-slide="next"
-                >
-                  <span aria-hidden="true"
-                    ><i class="fa-solid fa-angle-right fa-2x"></i
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-          </div>
+
+          <ul class="list" style="color: #fbc464; padding-left: 45px">
+            <li><span>Website Responsif</span></li>
+            <li><span>Tampilan Interaktif</span></li>
+            <li><span>HTML, CSS, Javascript</span></li>
+            <li><span>Bootstrap, Jquery</span></li>
+            <li><span>Desain UI/UX</span></li>
+          </ul>
         </div>
-      </section>
+        <div class="col-4 box" data-aos="fade-up" data-aos-duration="700">
+          <div
+            style="text-align: center; align-items: center; margin-top: 25px"
+          >
+            <img
+              src="/img/be.svg"
+              style="width: 80px; margin-top: 15px; margin-bottom: 10px"
+              alt=""
+            />
+            <h4 style="color: white; text-align: center; margin-bottom: 50px">
+              Backend Development
+            </h4>
+          </div>
 
-      <!-- GALLERY -->
-      <section id="gallery" class="container pt-4 pb-5">
-        <h3 class="center mb-5" style="color: #3e6ff4">Gallery</h3>
-        <div class="row mb-3">
-          <div class="col-md-3 d-flex mb-3">
-            <div class="gallery-photo m-auto photo-1">
-              <div class="title-photo">
-                <p><b>Almamater ITATS</b></p>
-                <p>Foto untuk lomba web development pertama dengan tim</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex mb-3">
-            <div class="gallery-photo m-auto photo-2">
-              <div class="title-photo">
-                <p><b>Nunggu Dosen</b></p>
-                <p>Lagi nunggu dosen daripada gabut cekrek dulu lah</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex mb-3">
-            <div class="gallery-photo m-auto photo-3">
-              <div class="title-photo">
-                <p><b>Himpunan Mahasiswa</b></p>
-                <p>Kita anggota himpunan Mahasiswa sistem Informasi ITATS</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex mb-3">
-            <div class="gallery-photo m-auto photo-4">
-              <div class="title-photo">
-                <p><b>Main PS</b></p>
-                <p>Ada waktu jeda matkul, gas PS dulu gaseh?</p>
-              </div>
-            </div>
-          </div>
+          <ul class="list" style="color: #fbc464; padding-left: 45px">
+            <li><span>Integrasi CMS Admin</span></li>
+            <li><span>RESTFul API </span></li>
+            <li><span>PHP, Laravel, ExpressJs</span></li>
+            <li><span>Database Mysql</span></li>
+            <li><span>Wordpress, Wix dll</span></li>
+          </ul>
         </div>
-        <div class="row mb-3">
-          <div class="col-md-3 d-flex mb-3">
-            <div class="gallery-photo m-auto photo-5">
-              <div class="title-photo">
-                <p><b>Teman Magang</b></p>
-                <p>Mumpung libur semester 2 biar ga gabut gas magang</p>
-              </div>
-            </div>
+        <div class="col-4 box" data-aos="fade-up" data-aos-duration="900">
+          <div
+            style="text-align: center; align-items: center; margin-top: 25px"
+          >
+            <img
+              src="/img/bug.svg"
+              style="width: 80px; margin-top: 15px; margin-bottom: 10px"
+              alt=""
+            />
+            <h4 style="color: white; text-align: center; margin-bottom: 20px">
+              Maintenance and Technical Support
+            </h4>
           </div>
-          <div class="col-md-3 d-flex mb-3">
-            <div class="gallery-photo m-auto photo-6">
-              <div class="title-photo">
-                <p><b>Diskusi Himpunan</b></p>
-                <p>Kunjungan di smk wachid hasyim surabaya cuy</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex mb-3">
-            <div class="gallery-photo m-auto photo-7">
-              <div class="title-photo">
-                <p><b>Tempat Magang</b></p>
-                <p>Ini tempat aku magang sebagai QC software engeenering</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex mb-3">
-            <div class="gallery-photo m-auto photo-8">
-              <div class="title-photo">
-                <p><b>Beasiswa ITATS</b></p>
-                <p>Bersyukur sekali dapat reward dari ITATS tercinta</p>
-              </div>
-            </div>
-          </div>
+
+          <ul class="list" style="color: #fbc464; padding-left: 45px">
+            <li><span> Pembaruan situs web secara berkala</span></li>
+            <li><span>Pelacakan kinerja situs web</span></li>
+            <li><span>Dukungan 24/7</span></li>
+            <li><span>Perbaikan Bug</span></li>
+          </ul>
         </div>
-      </section>
+        <div class="col-4 box" data-aos="fade-up" data-aos-duration="1200">
+          <div
+            style="text-align: center; align-items: center; margin-top: 25px"
+          >
+            <img
+              src="/img/mc.svg"
+              style="width: 60px; margin-top: 15px; margin-bottom: 10px"
+              alt=""
+            />
+            <h4 style="color: white; text-align: center; margin-bottom: 50px">
+              Public Speaker
+            </h4>
+          </div>
 
-      <!-- VIDEO -->
-      <section id="video" class="container">
-        <h2 class="center">Let's See My Video Here</h2>
-        <div class="center d-flex justify-content-center mt-3 mb-5">
-          <i class="fa-brands fa-youtube fa-2x me-4"></i>
-          <i class="fa-brands fa-tiktok fa-2x me-4"></i>
+          <ul class="list" style="color: #fbc464; padding-left: 45px">
+            <li><span>Pembicara di depan umum</span></li>
+            <li><span>Moderator</span></li>
+            <li><span>MC Event</span></li>
+            <li><span>Public Speaking</span></li>
+          </ul>
         </div>
-
-        <h3 class="center mb-4" style="color: rgb(0, 0, 0)">Youtube</h3>
-        <div class="video mb-5">
-          <div class="card-video" style="margin-right: 10px">
-            <iframe
-              width="300px"
-              height="200"
-              src="https://www.youtube.com/embed/7Wulo7le6ks?si=ySUJgebOVwgZLr7m"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-
-            <div class="card-body">
-              <h5 class="card-title">TKJ 1/30 PAL</h5>
-              <p class="card-text">
-                Perpisahan angkatan 30 jurusan teknik komputer dan jaringan SMKN
-                3 Buduran Sidoarjo
-              </p>
-            </div>
-          </div>
-          <div class="card-video" style="margin-right: 10px">
-            <iframe
-              width="300px"
-              height="200"
-              src="https://www.youtube.com/embed/-_4OJXdQ-S4?si=poU86hh_hHHNh3vi"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-            <div class="card-body">
-              <h5 class="card-title">Lomba Web Development</h5>
-              <p class="card-text">
-                Mengikuti lomba web development pertama yang di adakan Institut
-                Teknologi Telkom Purwokerto
-              </p>
-            </div>
-          </div>
-          <div class="card-video" style="margin-right: 10px">
-            <iframe
-              width="300px"
-              height="200"
-              src="https://www.youtube.com/embed/BEFtN1oe-7Y?si=-U83AL53cBfNUmSv"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-            <div class="card-body">
-              <h5 class="card-title">Praktikum C++</h5>
-              <p class="card-text">
-                Pengerjaan 6 soal latihan logika pemrograman menggunakan bahasa
-                pemrograman C++
-              </p>
-            </div>
-          </div>
-          <div class="card-video" style="margin-right: 10px">
-            <iframe
-              width="300px"
-              height="200"
-              src="https://www.youtube.com/embed/-_4OJXdQ-S4?si=poU86hh_hHHNh3vi"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-            <div class="card-body">
-              <h5 class="card-title">Lomba Web Development</h5>
-              <p class="card-text">
-                Mengikuti lomba web development pertama yang di adakan Institut
-                Teknologi Telkom Purwokerto
-              </p>
-            </div>
-          </div>
-          <div class="card-video" style="margin-right: 10px">
-            <iframe
-              width="300px"
-              height="200"
-              src="https://www.youtube.com/embed/G7SDaGHMFiY?si=3WrHYKI-8N8Ex_0k"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-            <div class="card-body">
-              <h5 class="card-title">Cyber Attack</h5>
-              <p class="card-text">
-                Penjelasan tentang apa itu cyber attack, bagaimana mencegah dan
-                manfaat cyber attack
-              </p>
-            </div>
-          </div>
-        </div>
-        <!--TIKTOK -->
-        <h3 class="center mb-4" style="color: rgb(0, 0, 0)">Tiktok</h3>
-        <div class="video-tiktok mb-5 d-flex justify-content-center">
-          <div class="card-video" style="margin-right: 10px">
-            <blockquote
-              class="tiktok-embed"
-              cite="https://www.tiktok.com/@devanooo22/video/7269991364014673157"
-              data-video-id="7269991364014673157"
-              style="width: 305px"
-            >
-              <section>
-                <a
-                  target="_blank"
-                  title="@devanooo22"
-                  href="https://www.tiktok.com/@devanooo22?refer=embed"
-                  >@devanooo22</a
-                >
-                Belajar ndoding pake keyboard gamen Titan 3 auto nambah
-                semangat...
-                <a
-                  title="fypシ"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed"
-                  >#fypシ</a
-                >
-                <a
-                  title="fyp"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/fyp?refer=embed"
-                  >#fyp</a
-                >
-                <a
-                  title="ngoding"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/ngoding?refer=embed"
-                  >#ngoding</a
-                >
-                <a
-                  title="javascript"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/javascript?refer=embed"
-                  >#javascript</a
-                >
-                <a
-                  title="keyboard"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/keyboard?refer=embed"
-                  >#keyboard</a
-                >
-                <a
-                  title="gamentitan3"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/gamentitan3?refer=embed"
-                  >#gamentitan3</a
-                >
-                <a
-                  target="_blank"
-                  title="♬ suara asli  - Dho."
-                  href="https://www.tiktok.com/music/suara-asli-Dho-7136864853179779867?refer=embed"
-                  >♬ suara asli - Dho.</a
-                >
-              </section>
-            </blockquote>
-            <script async src="https://www.tiktok.com/embed.js"></script>
-          </div>
-          <div class="card-video" style="margin-right: 10px">
-            <blockquote
-              class="tiktok-embed"
-              cite="https://www.tiktok.com/@devanooo22/video/7219206789206691098"
-              data-video-id="7219206789206691098"
-              style="width: 305px"
-            >
-              <section>
-                <a
-                  target="_blank"
-                  title="@devanooo22"
-                  href="https://www.tiktok.com/@devanooo22?refer=embed"
-                  >@devanooo22</a
-                >
-                Ambil kode warna menggunakan javascript
-                <a
-                  title="fypシ"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed"
-                  >#fypシ</a
-                >
-                <a
-                  title="koding"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/koding?refer=embed"
-                  >#koding</a
-                >
-                <a
-                  title="javascript"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/javascript?refer=embed"
-                  >#javascript</a
-                >
-                <a
-                  title="fyp"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/fyp?refer=embed"
-                  >#fyp</a
-                >
-                <a
-                  target="_blank"
-                  title="♬ original sound - :)"
-                  href="https://www.tiktok.com/music/original-sound-7076843230784588550?refer=embed"
-                  >♬ original sound - :)</a
-                >
-              </section>
-            </blockquote>
-            <script async src="https://www.tiktok.com/embed.js"></script>
-          </div>
-          <div class="card-video" style="margin-right: 10px">
-            <blockquote
-              class="tiktok-embed"
-              cite="https://www.tiktok.com/@devanooo22/video/7162819637208435995"
-              data-video-id="7162819637208435995"
-              style="width: 305px"
-            >
-              <section>
-                <a
-                  target="_blank"
-                  title="@devanooo22"
-                  href="https://www.tiktok.com/@devanooo22?refer=embed"
-                  >@devanooo22</a
-                >
-                Surabaya bro
-                <a
-                  title="fypシ"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed"
-                  >#fypシ</a
-                >
-                <a
-                  title="surabaya"
-                  target="_blank"
-                  href="https://www.tiktok.com/tag/surabaya?refer=embed"
-                  >#surabaya</a
-                >
-                <a
-                  target="_blank"
-                  title="♬ suara asli - adit - Hystyle"
-                  href="https://www.tiktok.com/music/suara-asli-adit-7157364407457057562?refer=embed"
-                  >♬ suara asli - adit - Hystyle</a
-                >
-              </section>
-            </blockquote>
-            <script async src="https://www.tiktok.com/embed.js"></script>
-          </div>
-        </div>
-      </section>
-
-      <section id="file" class="container mt-4 mb-5">
-        <h3 class="mb-4 center" style="color: #3e6ff4">Upload File PDF</h3>
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                Curriculum vitae
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                Ini adalah CV saya sebagai seorang fullstack web Developer, saya
-                meminati dunia coding sejak lulus smk dan ingin mempelajari
-                lebih dalam
-              </div>
-
-              <object data="file/cv.pdf" class="center pdf" type=""></object>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                Mobile Programming
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
-              </div>
-
-              <object
-                data="file/mobprog.pdf"
-                class="center pdf"
-                type=""
-              ></object>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Praktikum
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
-              </div>
-
-              <object
-                data="file/praktikum.pdf"
-                class="center pdf"
-                type=""
-              ></object>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="down mb-5">
-        <i class="icon-down fa-solid fa-angles-up fa-2x"></i>
       </div>
-      
-    </main>
+    </div>
 
-    <footer class="footer mt-5 container-fluid d-flex justify-content-center">
+    <div style="width: 100%; background-color: #44285b" id="skill">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 pt-4 d-flex justify-content-center">
-            <h4><b>DEVANO</b></h4>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="500">
+            <img
+              style="margin-top: 30px"
+              class="garis3"
+              src="/img/garis2.png"
+              alt=""
+            />
           </div>
-          <div class="col-md-4 pt-4 d-flex justify-content-center">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#video">Video</a>
-            <a href="#file">File</a>
-          </div>
-          <div class="col-md-4 pt-4 d-flex justify-content-center">
-            <a href="https://www.tiktok.com/@devanooo22"
-              ><i class="fa-brands fa-tiktok fa-2x me-4"></i
-            ></a>
-            <a href="https://www.youtube.com/@devanoaliframadhan2589">
-              <i class="fa-brands fa-youtube fa-2x me-4"></i
-            ></a>
-            <a href="https://www.instagram.com/devanoalif_/?next=%2F">
-              <i class="fa-brands fa-instagram fa-2x me-4"></i
-            ></a>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-duration="800">
+            <div class="p-3">
+              <h1
+                style="
+                  margin-left: 30px;
+                  margin-top: 30px;
+                  margin-bottom: 0px;
+                  color: white;
+                "
+              >
+                My <span style="color: #fbc464">Skills</span>
+              </h1>
+              <img src="/img/skil.png" class="skill" alt="" />
+            </div>
           </div>
         </div>
-        <div class="center mt-5"><p>devanorama@gmail.com</p></div>
       </div>
-    </footer>
+    </div>
 
+    <div
+      class="container"
+      id="work"
+      style="padding-top: 40px; padding-bottom: 40px"
+    >
+      <h1
+        style="
+          color: white;
+          text-align: center;
+          margin-top: 30px;
+          margin-bottom: 30px;
+        "
+      >
+        My <span style="color: #fbc464">Work</span>
+      </h1>
+      <div
+        id="website-container"
+        class="row d-flex justify-content-center"
+        style="padding-bottom: 50px"
+      >
+        <!-- <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          class="col-lg-3 cardlist d-flex align-items-end"
+          style="background-image: url('/img/work-3.png')"
+        >
+          <div
+            class="haha"
+            style="
+              width: 100%;
+              background-image: linear-gradient(
+                to bottom,
+                rgba(251, 196, 100, 0.08),
+                rgba(251, 196, 100, 0.493)
+              );
+            "
+          >
+            <h3 style="color: white; padding: 5px">
+              <a
+                href="Surabayasuites"
+                style="text-decoration: none; color: white"
+                >Surabayasuites</a
+              >
+            </h3>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          class="col-lg-3 cardlist d-flex align-items-end"
+          style="background-image: url('/img/work-3.png')"
+        >
+          <div
+            class="haha"
+            style="
+              width: 100%;
+              background-image: linear-gradient(
+                to bottom,
+                rgba(251, 196, 100, 0.08),
+                rgba(251, 196, 100, 0.493)
+              );
+            "
+          >
+            <h3 style="color: white; padding: 5px">
+              <a
+                href="Surabayasuites"
+                style="text-decoration: none; color: white"
+                >Surabayasuites</a
+              >
+            </h3>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          class="col-lg-3 cardlist d-flex align-items-end"
+          style="background-image: url('/img/work-3.png')"
+        >
+          <div
+            class="haha"
+            style="
+              width: 100%;
+              background-image: linear-gradient(
+                to bottom,
+                rgba(251, 196, 100, 0.08),
+                rgba(251, 196, 100, 0.493)
+              );
+            "
+          >
+            <h3 style="color: white; padding: 5px">
+              <a
+                href="Surabayasuites"
+                style="text-decoration: none; color: white"
+                >Surabayasuites</a
+              >
+            </h3>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          class="col-lg-3 cardlist d-flex align-items-end"
+          style="background-image: url('/img/work-3.png')"
+        >
+          <div
+            class="haha"
+            style="
+              width: 100%;
+              background-image: linear-gradient(
+                to bottom,
+                rgba(251, 196, 100, 0.08),
+                rgba(251, 196, 100, 0.493)
+              );
+            "
+          >
+            <h3 style="color: white; padding: 5px">
+              <a
+                href="Surabayasuites"
+                style="text-decoration: none; color: white"
+                >Surabayasuites</a
+              >
+            </h3>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          class="col-lg-3 cardlist d-flex align-items-end"
+          style="background-image: url('/img/work-3.png')"
+        >
+          <div
+            class="haha"
+            style="
+              width: 100%;
+              background-image: linear-gradient(
+                to bottom,
+                rgba(251, 196, 100, 0.08),
+                rgba(251, 196, 100, 0.493)
+              );
+            "
+          >
+            <h3 style="color: white; padding: 5px">
+              <a
+                href="Surabayasuites"
+                style="text-decoration: none; color: white"
+                >Surabayasuites</a
+              >
+            </h3>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          class="col-lg-3 cardlist d-flex align-items-end"
+          style="background-image: url('/img/work-3.png')"
+        >
+          <div
+            class="haha"
+            style="
+              width: 100%;
+              background-image: linear-gradient(
+                to bottom,
+                rgba(251, 196, 100, 0.08),
+                rgba(251, 196, 100, 0.493)
+              );
+            "
+          >
+            <h3 style="color: white; padding: 5px">
+              <a
+                href="Surabayasuites"
+                style="text-decoration: none; color: white"
+                >Surabayasuites</a
+              >
+            </h3>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          class="col-lg-3 cardlist d-flex align-items-end"
+          style="background-image: url('/img/work-3.png')"
+        >
+          <div
+            class="haha"
+            style="
+              width: 100%;
+              background-image: linear-gradient(
+                to bottom,
+                rgba(251, 196, 100, 0.08),
+                rgba(251, 196, 100, 0.493)
+              );
+            "
+          >
+            <h3 style="color: white; padding: 5px">
+              <a
+                href="Surabayasuites"
+                style="text-decoration: none; color: white"
+                >Surabayasuites</a
+              >
+            </h3>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          class="col-lg-3 cardlist d-flex align-items-end"
+          style="background-image: url('/img/work-3.png')"
+        >
+          <div
+            class="haha"
+            style="
+              width: 100%;
+              background-image: linear-gradient(
+                to bottom,
+                rgba(251, 196, 100, 0.08),
+                rgba(251, 196, 100, 0.493)
+              );
+            "
+          >
+            <h3 style="color: white; padding: 5px">
+              <a
+                href="Surabayasuites"
+                style="text-decoration: none; color: white"
+                >Surabayasuites</a
+              >
+            </h3>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <div
+      style="
+        background-color: #44285b;
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      "
+    >
+      <div class="container">
+        <h1
+          style="
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            margin-bottom: 30px;
+          "
+        >
+          My <span style="color: #fbc464">Experience</span>
+        </h1>
+        <div
+          id="website-container-2"
+          class="row d-flex justify-content-center"
+          style="padding-bottom: 50px"
+        >
+          <!-- <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            class="col-lg-3 cardlist d-flex align-items-end"
+            style="background-image: url('/img/work-3.png')"
+          >
+            <div
+              class="haha"
+              style="
+                width: 100%;
+                background-image: linear-gradient(
+                  to bottom,
+                  rgba(251, 196, 100, 0.08),
+                  rgba(251, 196, 100, 0.493)
+                );
+              "
+            >
+              <h3 style="color: white; padding: 5px">
+                <a
+                  href="Surabayasuites"
+                  style="text-decoration: none; color: white"
+                  >Surabayasuites</a
+                >
+              </h3>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            class="col-lg-3 cardlist d-flex align-items-end"
+            style="background-image: url('/img/work-3.png')"
+          >
+            <div
+              class="haha"
+              style="
+                width: 100%;
+                background-image: linear-gradient(
+                  to bottom,
+                  rgba(251, 196, 100, 0.08),
+                  rgba(251, 196, 100, 0.493)
+                );
+              "
+            >
+              <h3 style="color: white; padding: 5px">
+                <a
+                  href="Surabayasuites"
+                  style="text-decoration: none; color: white"
+                  >Surabayasuites</a
+                >
+              </h3>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            class="col-lg-3 cardlist d-flex align-items-end"
+            style="background-image: url('/img/work-3.png')"
+          >
+            <div
+              class="haha"
+              style="
+                width: 100%;
+                background-image: linear-gradient(
+                  to bottom,
+                  rgba(251, 196, 100, 0.08),
+                  rgba(251, 196, 100, 0.493)
+                );
+              "
+            >
+              <h3 style="color: white; padding: 5px">
+                <a
+                  href="Surabayasuites"
+                  style="text-decoration: none; color: white"
+                  >Surabayasuites</a
+                >
+              </h3>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            class="col-lg-3 cardlist d-flex align-items-end"
+            style="background-image: url('/img/work-3.png')"
+          >
+            <div
+              class="haha"
+              style="
+                width: 100%;
+                background-image: linear-gradient(
+                  to bottom,
+                  rgba(251, 196, 100, 0.08),
+                  rgba(251, 196, 100, 0.493)
+                );
+              "
+            >
+              <h3 style="color: white; padding: 5px">
+                <a
+                  href="Surabayasuites"
+                  style="text-decoration: none; color: white"
+                  >Surabayasuites</a
+                >
+              </h3>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            class="col-lg-3 cardlist d-flex align-items-end"
+            style="background-image: url('/img/work-3.png')"
+          >
+            <div
+              class="haha"
+              style="
+                width: 100%;
+                background-image: linear-gradient(
+                  to bottom,
+                  rgba(251, 196, 100, 0.08),
+                  rgba(251, 196, 100, 0.493)
+                );
+              "
+            >
+              <h3 style="color: white; padding: 5px">
+                <a
+                  href="Surabayasuites"
+                  style="text-decoration: none; color: white"
+                  >Surabayasuites</a
+                >
+              </h3>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            class="col-lg-3 cardlist d-flex align-items-end"
+            style="background-image: url('/img/work-3.png')"
+          >
+            <div
+              class="haha"
+              style="
+                width: 100%;
+                background-image: linear-gradient(
+                  to bottom,
+                  rgba(251, 196, 100, 0.08),
+                  rgba(251, 196, 100, 0.493)
+                );
+              "
+            >
+              <h3 style="color: white; padding: 5px">
+                <a
+                  href="Surabayasuites"
+                  style="text-decoration: none; color: white"
+                  >Surabayasuites</a
+                >
+              </h3>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            class="col-lg-3 cardlist d-flex align-items-end"
+            style="background-image: url('/img/work-3.png')"
+          >
+            <div
+              class="haha"
+              style="
+                width: 100%;
+                background-image: linear-gradient(
+                  to bottom,
+                  rgba(251, 196, 100, 0.08),
+                  rgba(251, 196, 100, 0.493)
+                );
+              "
+            >
+              <h3 style="color: white; padding: 5px">
+                <a
+                  href="Surabayasuites"
+                  style="text-decoration: none; color: white"
+                  >Surabayasuites</a
+                >
+              </h3>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            class="col-lg-3 cardlist d-flex align-items-end"
+            style="background-image: url('/img/work-3.png')"
+          >
+            <div
+              class="haha"
+              style="
+                width: 100%;
+                background-image: linear-gradient(
+                  to bottom,
+                  rgba(251, 196, 100, 0.08),
+                  rgba(251, 196, 100, 0.493)
+                );
+              "
+            >
+              <h3 style="color: white; padding: 5px">
+                <a
+                  href="Surabayasuites"
+                  style="text-decoration: none; color: white"
+                  >Surabayasuites</a
+                >
+              </h3>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="padding-bottom: 50px" id="contact">
+      <h1
+        style="
+          color: white;
+          text-align: center;
+          margin-top: 30px;
+          margin-bottom: 60px;
+        "
+      >
+        Contact <span style="color: #fbc464">Me</span>
+      </h1>
+      <div class="row d-flex contact">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="500"
+          class="col-lg-4 text-align-center align-items-center"
+          style="width: 300px"
+        >
+          <div
+            style="
+              padding-top: 30px;
+              text-align: center;
+              align-items: center;
+              margin-bottom: 30px;
+            "
+          >
+            <img src="/img/email.svg" style="width: 70px" alt="" />
+            <h4 style="color: white; padding-top: 30px">
+              devanorama123@gmail.com
+            </h4>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="800"
+          class="col-lg-4 text-align-center align-items-center"
+          style="width: 300px"
+        >
+          <div
+            style="
+              padding-top: 30px;
+              text-align: center;
+              align-items: center;
+              margin-bottom: 30px;
+            "
+          >
+            <img src="/img/map.svg" style="width: 40px" alt="" />
+            <h4 style="color: white; padding-top: 30px">
+              Sidoarjo - Jawa Timur
+            </h4>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1100"
+          class="col-lg-4 text-align-center align-items-center"
+          style="width: 300px"
+        >
+          <div
+            style="
+              padding-top: 30px;
+              text-align: center;
+              align-items: center;
+              margin-bottom: 30px;
+            "
+          >
+            <img src="/img/call.svg" style="width: 60px" alt="" />
+            <h4 style="color: white; padding-top: 30px">0895-3661-41915</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        width: 100%;
+        background-color: #44285b;
+        padding-top: 50px;
+        padding-bottom: 20px;
+      "
+    >
+      <div class="container d-flex justify-content-center">
+        <div style="display: flex">
+          <a
+            href="https://www.linkedin.com/in/devano-alif-ramadhan-9b7035258/"
+            style="margin-right: 20px"
+          >
+            <i
+              class="fa-brands fa-linkedin-in fa-2xl"
+              style="color: #ffffff"
+            ></i
+          ></a>
+          <a
+            href="https://www.instagram.com/devanoalif_"
+            style="margin-right: 20px"
+            ><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff"></i
+          ></a>
+          <a href="github.com/DevanoAlif22" style="margin-right: 20px"
+            ><i class="fa-brands fa-github fa-2xl" style="color: #ffffff"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/@devanoaliframadhan2589"
+            style="margin-right: 20px"
+            ><i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff"></i
+          ></a>
+        </div>
+      </div>
+      <p style="text-align: center; color: white; padding-top: 20px">
+        Devano Alif Ramadhan
+      </p>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true, // Animasi akan dimainkan hanya satu kali
+      });
+    </script>
+
+    <script src="/js/script.js"></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
   </body>
