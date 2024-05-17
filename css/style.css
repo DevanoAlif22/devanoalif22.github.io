@@ -218,3 +218,13 @@ nav li a:hover {
     height: 110vh;
   }
 }
+
+@media (max-width: 360px) {
+  .download {
+    font-size: 10px;
+    margin-right: 10px !important;
+  }
+  .talk {
+    font-size: 10px;
+  }
+}
