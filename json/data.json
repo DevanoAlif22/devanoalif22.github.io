@@ -11,7 +11,7 @@
       "/json/img/website1-sub3.png",
       "/json/img/website1-sub4.png"
     ],
-    "description": "Surabaya Suites Hotel adalah Hotel bintang empat Terletak di pusat kota Surabaya, dikelilingi pusat perbelanjaan, kawasan bisnis, kantor pemerintahan, dan fasilitas hiburan. Hanya 45 menit dari bandara internasional Juanda dan dengan akses mudah ke World Trade Centre yang terkenal, Surabaya Plaza Mall & Shopping Center, dan Exhibition Hall terbesar di Jawa Timur (Grand City Mall). Kami menyediakan 230 kamar tamu mulai dari kamar Junior Suite berukuran besar hingga Deluxe Suite. Saya ikut berkontribusi sebagai Backend dan Frontend untuk membuat dan mengembangkan website ini. Masa pembuatan adalah 2 bulan dan 1 tahun untuk tahap maintenance. <br><br> Website ini kami buat dengan Tech Stack berikut : <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Laravel, Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, Figma, Photoshop dan yang lainnya <br> Halaman : Home,About,Facilities,Career,News,CMS dan yang lainnya <br> Link :  <a href='https://www.surabayasuites.com/'>disini</a>"
+    "description": "Surabaya Suites Hotel adalah Hotel bintang empat Terletak di pusat kota Surabaya, dikelilingi pusat perbelanjaan, kawasan bisnis, kantor pemerintahan, dan fasilitas hiburan. Hanya 45 menit dari bandara internasional Juanda dan dengan akses mudah ke World Trade Centre yang terkenal, Surabaya Plaza Mall & Shopping Center, dan Exhibition Hall terbesar di Jawa Timur (Grand City Mall). <br>Saya ikut berkontribusi sebagai Backend dan Frontend untuk membuat dan mengembangkan website ini. Masa pembuatan adalah 2 bulan dan 1 tahun untuk tahap maintenance. <br><br> Website ini kami buat dengan Tech Stack berikut : <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Laravel, Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, Figma, Photoshop dan yang lainnya <br> Halaman : Home,About,Facilities,Career,News,CMS dan yang lainnya <br> Link :  <a href='https://www.surabayasuites.com/'>disini</a>"
   },
   {
     "id": 2,
@@ -113,6 +113,62 @@
   },
   {
     "id": 9,
+    "nama": "Slicing Adidas",
+    "detail": "Website Slicing Adidas",
+    "kategori": "Website",
+    "main_image": "/json/img/website12-main.png",
+    "sub_images": [
+      "/json/img/website12-sub1.png",
+      "/json/img/website12-sub2.png",
+      "/json/img/website12-sub3.png",
+      "/json/img/website12-sub4.png"
+    ],
+    "description": "Slicing Adidas adalah Pembuatan website dari website yang sudah ada, yaitu adidas. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda, Keranjang, Detail"
+  },
+  {
+    "id": 10,
+    "nama": "Slicing KFC",
+    "detail": "Website Slicing KFC",
+    "kategori": "Website",
+    "main_image": "/json/img/website11-main.png",
+    "sub_images": [
+      "/json/img/website11-sub1.png",
+      "/json/img/website11-sub2.png",
+      "/json/img/website11-sub3.png",
+      "/json/img/website11-sub4.png"
+    ],
+    "description": "Slicing KFC adalah Pembuatan website dari website yang sudah ada, yaitu KFC. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda"
+  },
+  {
+    "id": 11,
+    "nama": "RESTFul Node JS",
+    "detail": "RESTFul Node JS",
+    "kategori": "Website",
+    "main_image": "/json/img/website10-main.png",
+    "sub_images": [
+      "/json/img/website10-sub1.png",
+      "/json/img/website10-sub2.png",
+      "/json/img/website10-sub3.png",
+      "/json/img/website10-sub4.png"
+    ],
+    "description": "Membuat RestFul API Menggunakan Node JS. Dapat melakukan request get, post, delete dan put. Untuk case nya yaitu Contact dan Address yang juga di lengkapi oleh sistem Authentikasi dan database MYSQL"
+  },
+  {
+    "id": 12,
+    "nama": "RESTFul PHP Native",
+    "detail": "RESTFul PHP Native",
+    "kategori": "Website",
+    "main_image": "/json/img/website9-main.png",
+    "sub_images": [
+      "/json/img/website9-sub1.png",
+      "/json/img/website9-sub2.png",
+      "/json/img/website9-sub3.png",
+      "/json/img/website9-sub4.png"
+    ],
+    "description": "Membuat RestFul API Menggunakan Bahasa Pemrograman PHP Native. Dapat melakukan request get, post, delete dan put. Untuk case nya yaitu Contact dan Address yang juga di lengkapi database MYSQL"
+  },
+  {
+    "id": 13,
     "nama": "Juara 1 WebDev",
     "detail": "Juara 1 Lomba WebDev I/OFEST UNTAR 2023",
     "kategori": "Pengalaman",
@@ -126,7 +182,7 @@
     "description": "Tepat pada tanggal 25 Mei 2023 saya dan rekan tim mengikuti kompetisi I/OFEST Universitas Tarumanegara 'Web Development' tingkat nasional dan berhasil meraih 'Juara 2' di kompetisi tersebut. Kami membawa Website Health Care (lebih detail di My Work) dalam perlombaan ini. Kami sangat bangga karena dapat berkompetisi dengan teman-teman dari Universitas Negeri seperti Universitas Indonesia, Universitas Brawijaya dan yang lainnya"
   },
   {
-    "id": 10,
+    "id": 14,
     "nama": "Finalist WebDev",
     "detail": "Finalis Lomba WebDev INVFEST 8.0 2023",
     "kategori": "Pengalaman",
@@ -140,7 +196,7 @@
     "description": "Tepat pada Desember 2023 kami mengikuti lomba Web Application yang diadakan oleh IT Telkom Purwokerto dan tim saya sebagai ketua tim, dimana tim saya mendapatkan prestasi finalis 5 besar terbaik. Ini adalah kali ketiga tim kami mengikuti lomba website. Kami mengangkat permasalahan kesehatan mental yang akhir-akhir ini lagi maraknya dan kami berinisiatif membuat website dengan nama Mental Health (lebih detail di My Work) yang bisa di cek di link github kami <a href='https://github.com/DevanoAlif22/Mental-Health'>disini</a>"
   },
   {
-    "id": 11,
+    "id": 15,
     "nama": "Finalist WebDev",
     "detail": "Finalis Lomba WebDev INVFEST 7.0 2022",
     "kategori": "Pengalaman",
@@ -154,7 +210,7 @@
     "description": "Tepat pada tanggal 19 November 2022 saya dan rekan tim saya ikut serta mengikuti lomba 'Web Application' yang di selenggarakan oleh program studi teknik informatika Institut Teknologi Telkom Purwokerto. Kami membawa website AdaSampah dalam perlombaan ini dan berhasil menjadi Finalis 5 besar."
   },
   {
-    "id": 12,
+    "id": 16,
     "nama": "Coding Talent",
     "detail": "Mentor Coding Talent SD Mumtaz Sidoarjo",
     "kategori": "Pengalaman",
@@ -168,7 +224,7 @@
     "description": "Di tengah liburan semester 3, saya mendapatkan kesempatan untuk menjadi mentor atau pengajar di kelas 'Talent Coding' SD Muhammadiyah 1&2 Taman. Saya sangat senang bisa sharing ilmu seputar teknologi kepada adik-adik yang super keren dan pintar ini. Ternyata negeri ini tidak kekurangan generasi yang unggul dan antusias dalam dunia Teknologi"
   },
   {
-    "id": 13,
+    "id": 17,
     "nama": "MC SurabayaDev Anniv 10th",
     "detail": "MC Main Event SurabayaDev Anniversary 10th",
     "kategori": "Pengalaman",
@@ -182,7 +238,7 @@
     "description": "SurabayaDev Anniversary 10th adalah Event yang terdiri dari beberapa agenda yaitu [ Meetup Roadshow - UI/UX Competition - Coding Competition dan Main event ] yang di selenggarakan oleh SurabayaDev dan di support langsung oleh Himpunan Mahasiswa Teknik Informatika Universitas 17 Agustus 1945 Surabaya untuk memperingati ulang tahun Komunitas Surabaya Developer yang ke 10. <br> Dalam kesempatan ini saya turut ber kontribusi sebagai PIC UI/UX Competition, MC UI/UX Competition dan MC di Main Event SurabayaDev Anniv 10th. Saya sangat senang sekali karena sebelumnya hanya bisa ikut lomba saja, di kesempatan ini saya menjadi penanggung jawab lomba UIUX dan MC di Main Event.<br>Sangat bersyukur sekali, karena bisa ber tatap muka secara langsung dengan Pak Sandhika Galih Sandhika Galih selaku Founder dari WPU."
   },
   {
-    "id": 14,
+    "id": 18,
     "nama": "Workshop Web Programming",
     "detail": "Pemateri Workshop Web Programming HIMSI ITATS",
     "kategori": "Pengalaman",
@@ -196,7 +252,7 @@
     "description": "Saya dan tim kampus Institut Teknologi Adhi Tama Surabaya lainnya menjalankan program 'Workshop Web Programming' di SMK Rajasa Surabaya pada tanggal 17 November, 29 November dan 1 Desember 2023 yang di selenggarakan oleh HIMSI ITATS. <br> Kami sharing materi tentang pembuatan website seperti HTML, CSS dan bootstrap beserta praktik langsung membuat website portofolio dengan modul yang kami siapkan di link berikut devanorama321.github.io. Senang sekali bisa berkumpul dengan orang-orang yang ahli di bidangnya dan bisa sharing ilmu ke temen-temen SMK"
   },
   {
-    "id": 15,
+    "id": 19,
     "nama": "MC HacktoberFest 2023",
     "detail": "MC HacktoberFest 2023",
     "kategori": "Pengalaman",
@@ -210,7 +266,7 @@
     "description": "Tepat pada tanggal 22 Oktober 2023, saya di amanahi untuk menjadi moderator di offline meetup hacktoberfest 2023 : A Celebration of Code and Collaboration. Hacktoberfest adalah event offline dengan kolaborasi komunitas IT Terbesar di Surabaya, dimana terdapat 2 materi yaitu 'Github Action' dan 'Penetration Test' yang di selenggarakan di universitas 17 Agustus 1945 Surabaya. Event ini di organisir langsung oleh 12 komunitas IT di Surabaya dan di support oleh jagoan hosting, indocenter dan hacktiv8"
   },
   {
-    "id": 16,
+    "id": 20,
     "nama": "MC Workshop Hacktiv8",
     "detail": "MC Workshop Hacktiv8",
     "kategori": "Pengalaman",
