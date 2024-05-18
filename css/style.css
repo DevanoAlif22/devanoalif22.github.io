@@ -177,6 +177,13 @@ nav li a:hover {
   background-size: cover;
 }
 
+@media (max-width: 1000px) {
+  .container-hero {
+    height: 100%;
+    margin-bottom: 40px;
+  }
+}
+
 @media (max-width: 576px) {
   .wrap-profil {
     -webkit-box-pack: center;
@@ -212,10 +219,6 @@ nav li a:hover {
   }
   .talk {
     font-size: 12px;
-  }
-
-  .container-hero {
-    height: 110vh;
   }
 }
 
