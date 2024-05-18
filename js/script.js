@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
         detailAnchor.href = `detail.html?id=${website.id}`;
         detailAnchor.style.textDecoration = "none";
         detailAnchor.style.color = "white";
-        detailAnchor.innerText = "Lihat detail";
+        detailAnchor.innerText = "View detail";
         detailLink.style.margin = "0px";
         detailLink.style.marginLeft = "5px";
         detailLink.style.padding = "0px";
