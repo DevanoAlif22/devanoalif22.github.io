@@ -109,7 +109,7 @@
       "/json/img/website8-sub3.png",
       "/json/img/website8-sub4.png"
     ],
-    "description": "Slicing Gojek adalah Pembuatan website dari desain figma yang sudah ada. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda"
+    "description": "Slicing Gojek adalah Pembuatan website dari desain figma yang sudah ada. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda <br> Link : <a href='https://github.com/DevanoAlif22/Slicing-figma-gojek'>disini</a>"
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
       "/json/img/website12-sub3.png",
       "/json/img/website12-sub4.png"
     ],
-    "description": "Slicing Adidas adalah Pembuatan website dari website yang sudah ada, yaitu adidas. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda, Keranjang, Detail"
+    "description": "Slicing Adidas adalah Pembuatan website dari website yang sudah ada, yaitu adidas. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda, Keranjang, Detail <br> Link : <a href='https://github.com/DevanoAlif22/Slicing-figma-adidas'>disini</a>"
   },
   {
     "id": 10,
@@ -165,7 +165,7 @@
       "/json/img/website9-sub3.png",
       "/json/img/website9-sub4.png"
     ],
-    "description": "Membuat RestFul API Menggunakan Bahasa Pemrograman PHP Native. Dapat melakukan request get, post, delete dan put. Untuk case nya yaitu Contact dan Address yang juga di lengkapi database MYSQL"
+    "description": "Membuat RestFul API Menggunakan Bahasa Pemrograman PHP Native. Dapat melakukan request get, post, delete dan put. Untuk case nya yaitu Contact dan Address yang juga di lengkapi database MYSQL <br> Link : <a href='https://github.com/DevanoAlif22/restfull_native'>disini</a>"
   },
   {
     "id": 13,
