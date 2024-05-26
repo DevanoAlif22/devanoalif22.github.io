@@ -140,6 +140,34 @@
     "description": "Slicing KFC adalah Pembuatan website dari website yang sudah ada, yaitu KFC. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda"
   },
   {
+    "id": 21,
+    "nama": "Tukuo",
+    "detail": "Website Tukuo",
+    "kategori": "Website",
+    "main_image": "/json/img/website14-main.png",
+    "sub_images": [
+      "/json/img/website14-sub1.png",
+      "/json/img/website14-sub2.png",
+      "/json/img/website14-sub3.png",
+      "/json/img/website14-sub4.png"
+    ],
+    "description": "Tukuo adalah website E-Commerce sederhana. Website ini mempunyai case tentang penjualan elketronik seperti mobil, motor dan handphone. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS dan PHP <br> Framework : Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda, Keranjang, Detail <br> Link : <a href='https://github.com/DevanoAlif22/Tukuo'>disini</a>"
+  },
+  {
+    "id": 20,
+    "nama": "API Wisata Indonesia Dev",
+    "detail": "PUBLIC API Wisata Indonesia Dev",
+    "kategori": "Website",
+    "main_image": "/json/img/website13-main.png",
+    "sub_images": [
+      "/json/img/website13-sub1.png",
+      "/json/img/website13-sub2.png",
+      "/json/img/website13-sub3.png",
+      "/json/img/website13-sub4.png"
+    ],
+    "description": "API Wisata Indonesia Dev menyediakan data lengkap mengenai provinsi Indonesia dan rekomendasi wisata di dalamnya dengan total 999+ wisata. <br> Link : <a href='https://public-api-wisata.vercel.app/'>disini</a>"
+  },
+  {
     "id": 11,
     "nama": "RESTFul Node JS",
     "detail": "RESTFul Node JS",
