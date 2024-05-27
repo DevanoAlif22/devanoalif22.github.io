@@ -98,6 +98,20 @@
     "description": "Wedding Invitaiton adalah Website untuk undangan pernikahan yang berisi detail dari pernikahan kedua mempelai seperti tanggal, tempat dan yang lainnya. TAk hanya itu, di Website ini disediakan untuk mengisi RSVP dan memberikan ucapan selamat kepada kedua mempelai. Saya berkontribusi sebagai Backend dan Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Home, tanggal pernikahan, gallery, RSVP, detail pernaikahan dan yang lainnya <br> Link : <a href='https://github.com/DevanoAlif22/Wedding-Invitation'>disini</a>"
   },
   {
+    "id": 18,
+    "nama": "Kode Muda",
+    "detail": "Website Kode Muda",
+    "kategori": "Website",
+    "main_image": "/json/img/website15-main.png",
+    "sub_images": [
+      "/json/img/website15-sub1.png",
+      "/json/img/website15-sub2.png",
+      "/json/img/website15-sub3.png",
+      "/json/img/website15-sub4.png"
+    ],
+    "description": "Kode Muda adalahwebsite bisnis jasa pembuatan website. Saya berkontribusi sebagai Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : - <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda <br> Link : <a href='https://kodemuda.vercel.app/html'>disini</a> <br> Source Code : <a href='https://github.com/DevanoAlif22/kodemuda'>disini</a>"
+  },
+  {
     "id": 8,
     "nama": "Slicing Gojek",
     "detail": "Website Slicing Gojek",
@@ -109,7 +123,7 @@
       "/json/img/website8-sub3.png",
       "/json/img/website8-sub4.png"
     ],
-    "description": "Slicing Gojek adalah Pembuatan website dari desain figma yang sudah ada. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda <br> Link : <a href='https://github.com/DevanoAlif22/Slicing-figma-gojek'>disini</a>"
+    "description": "Slicing Gojek adalah Pembuatan website dari desain figma yang sudah ada. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda <br> Link : <a href='https://devanoalif22.github.io/Slicing-figma-gojek/'>disini</a> <br> Source Code : <a href='https://github.com/DevanoAlif22/Slicing-figma-gojek'>disini</a>"
   },
   {
     "id": 9,
@@ -123,7 +137,7 @@
       "/json/img/website12-sub3.png",
       "/json/img/website12-sub4.png"
     ],
-    "description": "Slicing Adidas adalah Pembuatan website dari website yang sudah ada, yaitu adidas. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda, Keranjang, Detail <br> Link : <a href='https://github.com/DevanoAlif22/Slicing-figma-adidas'>disini</a>"
+    "description": "Slicing Adidas adalah Pembuatan website dari website yang sudah ada, yaitu adidas. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda, Keranjang, Detail <br> Link : <a href='https://devanoalif22.github.io/Slicing-figma-adidas/html/index.html'>disini</a> <br> Source Code : <a href='https://github.com/DevanoAlif22/Slicing-figma-adidas'>disini</a>"
   },
   {
     "id": 10,
