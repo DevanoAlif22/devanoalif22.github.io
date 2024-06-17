@@ -158,12 +158,12 @@
     "nama": "Node JS Clone Twitter",
     "detail": "Node JS Clone Twitter",
     "kategori": "Website",
-    "main_image": "/json/img/website18-main.png",
+    "main_image": "/json/img/website17-main.png",
     "sub_images": [
-      "/json/img/website18-sub1.png",
-      "/json/img/website18-sub2.png",
-      "/json/img/website18-sub3.png",
-      "/json/img/website18-sub4.png"
+      "/json/img/website17-sub1.png",
+      "/json/img/website17-sub2.png",
+      "/json/img/website17-sub3.png",
+      "/json/img/website17-sub4.png"
     ],
     "description": "Website clone dari website yang sudah ada yaitu twitter. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS (Node JS) <br> Framework : Express Js dan Bootstrap <br> Dependensi : Axios, Joy, Mustache, Multer, Winston dan yang lainnya <br> Database : Mysql <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Login, Beranda, Profil, Search, Upload dan yang lainnya <br> Source Code : <a href='https://github.com/DevanoAlif22/Nodejs-Twitter-Clone'>disini</a>"
   },
