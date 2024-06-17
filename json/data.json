@@ -154,9 +154,9 @@
     "description": "Slicing KFC adalah Pembuatan website dari website yang sudah ada, yaitu KFC. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda"
   },
   {
-    "id": 21,
-    "nama": "Tukuo",
-    "detail": "Website Tukuo",
+    "id": 25,
+    "nama": "Express JS Clone Twitter",
+    "detail": "Express JS Clone Twitter",
     "kategori": "Website",
     "main_image": "/json/img/website14-main.png",
     "sub_images": [
@@ -165,7 +165,7 @@
       "/json/img/website14-sub3.png",
       "/json/img/website14-sub4.png"
     ],
-    "description": "Tukuo adalah website E-Commerce sederhana. Website ini mempunyai case tentang penjualan elketronik seperti mobil, motor dan handphone. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS dan PHP <br> Framework : Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda, Keranjang, Detail <br> Link : <a href='https://github.com/DevanoAlif22/Tukuo'>disini</a>"
+    "description": "Website clone dari website yang sudah ada yaitu twitter. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS (Node JS) <br> Framework : Express Js dan Bootstrap <br> Dependensi : Axios, Joy, Mustache, Multer, Winston dan yang lainnya <br> Database : Mysql <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Login, Beranda, Profil, Search, Upload dan yang lainnya <br> Source Code : <a href='https://github.com/DevanoAlif22/Nodejs-Twitter-Clone'>disini</a>"
   },
   {
     "id": 20,
