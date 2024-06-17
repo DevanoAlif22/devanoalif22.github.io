@@ -207,7 +207,7 @@
       "/json/img/website10-sub3.png",
       "/json/img/website10-sub4.png"
     ],
-    "description": "Membuat RestFul API Menggunakan Node JS. Dapat melakukan request get, post, delete dan put. Untuk case nya yaitu Contact dan Address yang juga di lengkapi oleh sistem Authentikasi dan database MYSQL<br> Github Code : <a href='https://github.com/DevanoAlif22/arsitektur-nodejs-devano/tree/master'>disini</a>"
+    "description": "Membuat RestFul API Menggunakan Node JS. Dapat melakukan request get, post, delete dan put. Untuk case nya yaitu Contact dan Address yang juga di lengkapi oleh sistem Authentikasi dan database MYSQL<br> Dokumentasi API Lengkap : <a href='https://github.com/DevanoAlif22/arsitektur-nodejs-devano/tree/master/docs'>disini</a> <br> Github Code : <a href='https://github.com/DevanoAlif22/arsitektur-nodejs-devano/tree/master'>disini</a>"
   },
   {
     "id": 12,
