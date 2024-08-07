@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "nama": "Surabaya Suites",
+    "detail": "Website Surabaya Suites",
+    "kategori": "Website",
+    "main_image": "/json/img/website1-main.png",
+    "sub_images": [
+      "/json/img/website1-sub1.png",
+      "/json/img/website1-sub2.png",
+      "/json/img/website1-sub3.png",
+      "/json/img/website1-sub4.png"
+    ],
+    "description": "Surabaya Suites Hotel adalah Hotel bintang empat Terletak di pusat kota Surabaya, dikelilingi pusat perbelanjaan, kawasan bisnis, kantor pemerintahan, dan fasilitas hiburan. Hanya 45 menit dari bandara internasional Juanda dan dengan akses mudah ke World Trade Centre yang terkenal, Surabaya Plaza Mall & Shopping Center, dan Exhibition Hall terbesar di Jawa Timur (Grand City Mall). <br>Saya ikut berkontribusi sebagai Backend dan Frontend untuk membuat dan mengembangkan website ini. Masa pembuatan adalah 2 bulan dan 1 tahun untuk tahap maintenance. <br><br> Website ini kami buat dengan Tech Stack berikut : <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Laravel, Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, Figma, Photoshop dan yang lainnya <br> Halaman : Home,About,Facilities,Career,News,CMS dan yang lainnya <br> Link :  <a href='https://www.surabayasuites.com/'>disini</a>"
+  },
+  {
+    "id": 2,
+    "nama": "Plaza Surabaya",
+    "detail": "Website Plaza Surabaya",
+    "kategori": "Website",
+    "main_image": "/json/img/website2-main.png",
+    "sub_images": [
+      "/json/img/website2-sub1.png",
+      "/json/img/website2-sub2.png",
+      "/json/img/website2-sub3.png",
+      "/json/img/website2-sub4.png"
+    ],
+    "description": "Plaza Surabaya (atau biasa disebut dengan nama sebelumnya Delta Plaza) adalah perbelanjaan di Surabaya. Mal ini didirikan pada tahun 1988 dengan penyewa - penyewa yang sudah terkenal sebagai perusahaan besar baik skala nasional maupun internasional antara lain McDonald's, Super Indo, Timezone, J.CO Donuts & Coffee, Pizza Hut, KFC, HokBen, Burger King, Matahari, Mixue, Richeese Factory dan masih banyak lagi. Pusat perbelanjaan ini terletak di Surabaya Pusat bersebelahan dengan Monumen Kapal Selam, dan terdapat pintu akses untuk mengakses monumen dari parkiran mal. Plaza Surabaya merupakan family mall yang berkonsep untuk menyediakan seluruh kebutuhan keluarga dalam satu tempat. <br> Saya ikut berkontribusi sebagai Backend dan Frontend untuk membuat dan mengembangkan website ini. Masa pembuatan adalah 2 bulan dan 6 bulan untuk tahap maintenance. <br><br> Website ini kami buat dengan Tech Stack berikut : <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Laravel, Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, PHP Mailer, Figma, Photoshop dan yang lainnya <br> Halaman : Home, Whats on, Career, Directory, Contact, CMS dan yang lainnya <br> Link :  <a href='http://www.plaza-surabaya.com'>disini</a>"
+  },
+  {
+    "id": 3,
+    "nama": "Health Care",
+    "detail": "Website Health Care",
+    "kategori": "Website",
+    "main_image": "/json/img/website3-main.png",
+    "sub_images": [
+      "/json/img/website3-sub1.png",
+      "/json/img/website3-sub2.png",
+      "/json/img/website3-sub3.png",
+      "/json/img/website3-sub4.png"
+    ],
+    "description": "Health Care adalah Website kesehatan dengan beberapa fitur kesehatan seperti Sistem Pakar, Cek Ketersediaan Kamar Rumah Sakit dan Blog Kesehatan. Website ini kita ikutkan kompetisi web development dan berhasil meraih juara 2 (Penjelasan lebih jelas di My Experience). Saya berkontribusi sebagai Backend dan Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Laravel, Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, PHP Mailer, Figma, Photoshop dan yang lainnya <br> Halaman : Home, Sistem Pakar, Blog, Rumah Sakit, CMS dan yang lainnya"
+  },
+  {
+    "id": 4,
+    "nama": "Mental Health",
+    "detail": "Website Mental Health",
+    "kategori": "Website",
+    "main_image": "/json/img/website4-main.png",
+    "sub_images": [
+      "/json/img/website4-sub1.png",
+      "/json/img/website4-sub2.png",
+      "/json/img/website4-sub3.png",
+      "/json/img/website4-sub4.png"
+    ],
+    "description": "Mental Health adalah Website kesehatan dengan beberapa fitur kesehatan seperti Sistem Pakar, Artikel Kesehatan dan Tempat Bercerita. Website ini kita ikutkan kompetisi web development dan berhasil masuk ke finalis 5 besar (Penjelasan lebih jelas di My Experience). Saya berkontribusi sebagai Backend dan Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Laravel, Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, PHP Mailer, Midtrans, Figma, Photoshop dan yang lainnya <br> Halaman : Home, Sistem Pakar, Artikel, Cerita, Pembayaran, CMS dan yang lainnya  <br> Github Code : <a href='https://github.com/DevanoAlif22/Mental-Health'>disini</a>"
+  },
+  {
+    "id": 5,
+    "nama": "Ada Sampah",
+    "detail": "Website Ada Sampah",
+    "kategori": "Website",
+    "main_image": "/json/img/website5-main.png",
+    "sub_images": [
+      "/json/img/website5-sub1.png",
+      "/json/img/website5-sub2.png",
+      "/json/img/website5-sub3.png",
+      "/json/img/website5-sub4.png"
+    ],
+    "description": "AdaSampah adalah Website Go Green dengan beberapa fitur  seperti Sistem Pakar, Artikel tentang Go Green dan Pelaporan sampah sesuai daerah masing-masing. Website ini kita ikutkan kompetisi web development dan berhasil masuk ke finalis 5 besar (Penjelasan lebih jelas di My Experience). Saya berkontribusi sebagai Backend dan Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : PHP dan JS <br> Framework : - <br> Database : Mysql <br> Lainnya : HTML, CSS, PHP Mailer, Photoshop dan yang lainnya <br> Halaman : Home, Artikel, Mailer dan yang lainnya <br> Github Code : <a href='https://github.com/DevanoAlif22/Ada-Sampah'>disini</a>"
+  },
+  {
+    "id": 6,
+    "nama": "Travelnesia",
+    "detail": "Website Travelnesia",
+    "kategori": "Website",
+    "main_image": "/json/img/website6-main.png",
+    "sub_images": [
+      "/json/img/website6-sub1.png",
+      "/json/img/website6-sub2.png",
+      "/json/img/website6-sub3.png",
+      "/json/img/website6-sub4.png"
+    ],
+    "description": "Travelnesia adalah Website travel dengan beberapa fitur seperti Tempat Wisata, Postingan, Pemandu, Wisatawan dan CMS. Website ini untuk 2 user yaitu pemandu wisata dan wisatawan yang ingin menjelajahi tempat di Indonesia dengan pemandu yang profesional. Saya berkontribusi sebagai Backend dan Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, PHP Mailer, Midtrans, Figma, Photoshop dan yang lainnya <br> Halaman : Home, List Pemandu dan Wisatawan, List Postingan, Daftar pemandu, Tempat Wisata Indonesia, Pembayaran, CMS dan yang lainnya <br> Github Code : <a href='https://github.com/DevanoAlif22/TravelNesia'>disini</a>"
+  },
+  {
+    "id": 7,
+    "nama": "Wedding Invitation",
+    "detail": "Website Wedding Invitation",
+    "kategori": "Website",
+    "main_image": "/json/img/website7-main.png",
+    "sub_images": [
+      "/json/img/website7-sub1.png",
+      "/json/img/website7-sub2.png",
+      "/json/img/website7-sub3.png",
+      "/json/img/website7-sub4.png"
+    ],
+    "description": "Wedding Invitaiton adalah Website untuk undangan pernikahan yang berisi detail dari pernikahan kedua mempelai seperti tanggal, tempat dan yang lainnya. TAk hanya itu, di Website ini disediakan untuk mengisi RSVP dan memberikan ucapan selamat kepada kedua mempelai. Saya berkontribusi sebagai Backend dan Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Home, tanggal pernikahan, gallery, RSVP, detail pernaikahan dan yang lainnya <br> Link : <a href='https://github.com/DevanoAlif22/Wedding-Invitation'>disini</a>"
+  },
+  {
+    "id": 18,
+    "nama": "Kode Muda",
+    "detail": "Website Kode Muda",
+    "kategori": "Website",
+    "main_image": "/json/img/website15-main.png",
+    "sub_images": [
+      "/json/img/website15-sub1.png",
+      "/json/img/website15-sub2.png",
+      "/json/img/website15-sub3.png",
+      "/json/img/website15-sub4.png"
+    ],
+    "description": "Kode Muda adalahwebsite bisnis jasa pembuatan website. Saya berkontribusi sebagai Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : - <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda <br> Link : <a href='https://kodemuda.vercel.app/html'>disini</a> <br> Source Code : <a href='https://github.com/DevanoAlif22/kodemuda'>disini</a>"
+  },
+  {
+    "id": 8,
+    "nama": "Slicing Gojek",
+    "detail": "Website Slicing Gojek",
+    "kategori": "Website",
+    "main_image": "/json/img/website8-sub1.png",
+    "sub_images": [
+      "/json/img/website8-main.png",
+      "/json/img/website8-sub2.png",
+      "/json/img/website8-sub3.png",
+      "/json/img/website8-sub4.png"
+    ],
+    "description": "Slicing Gojek adalah Pembuatan website dari desain figma yang sudah ada. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda <br> Link : <a href='https://devanoalif22.github.io/Slicing-figma-gojek/'>disini</a> <br> Source Code : <a href='https://github.com/DevanoAlif22/Slicing-figma-gojek'>disini</a>"
+  },
+  {
+    "id": 9,
+    "nama": "Slicing Adidas",
+    "detail": "Website Slicing Adidas",
+    "kategori": "Website",
+    "main_image": "/json/img/website12-main.png",
+    "sub_images": [
+      "/json/img/website12-sub1.png",
+      "/json/img/website12-sub2.png",
+      "/json/img/website12-sub3.png",
+      "/json/img/website12-sub4.png"
+    ],
+    "description": "Slicing Adidas adalah Pembuatan website dari website yang sudah ada, yaitu adidas. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda, Keranjang, Detail <br> Link : <a href='https://devanoalif22.github.io/Slicing-figma-adidas/html/index.html'>disini</a> <br> Source Code : <a href='https://github.com/DevanoAlif22/Slicing-figma-adidas'>disini</a>"
+  },
+  {
+    "id": 10,
+    "nama": "Slicing KFC",
+    "detail": "Website Slicing KFC",
+    "kategori": "Website",
+    "main_image": "/json/img/website11-main.png",
+    "sub_images": [
+      "/json/img/website11-sub1.png",
+      "/json/img/website11-sub2.png",
+      "/json/img/website11-sub3.png",
+      "/json/img/website11-sub4.png"
+    ],
+    "description": "Slicing KFC adalah Pembuatan website dari website yang sudah ada, yaitu KFC. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda"
+  },
+  {
+    "id": 25,
+    "nama": "Node JS Clone Twitter",
+    "detail": "Node JS Clone Twitter",
+    "kategori": "Website",
+    "main_image": "/json/img/website17-main.png",
+    "sub_images": [
+      "/json/img/website17-sub1.png",
+      "/json/img/website17-sub2.png",
+      "/json/img/website17-sub3.png",
+      "/json/img/website17-sub4.png"
+    ],
+    "description": "Website clone dari website yang sudah ada yaitu twitter. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS (Node JS) <br> Framework : Express Js dan Bootstrap <br> Dependensi : Axios, Joy, Mustache, Multer, Winston dan yang lainnya <br> Database : Mysql <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Login, Beranda, Profil, Search, Upload dan yang lainnya <br> Source Code : <a href='https://github.com/DevanoAlif22/Nodejs-Twitter-Clone'>disini</a>"
+  },
+  {
+    "id": 20,
+    "nama": "Public API Wisata Indonesia Dev",
+    "detail": "PUBLIC API Wisata Indonesia Dev",
+    "kategori": "Website",
+    "main_image": "/json/img/website13-main.png",
+    "sub_images": [
+      "/json/img/website13-sub1.png",
+      "/json/img/website13-sub2.png",
+      "/json/img/website13-sub3.png",
+      "/json/img/website13-sub4.png"
+    ],
+    "description": "API Wisata Indonesia Dev menyediakan data lengkap mengenai provinsi Indonesia dan rekomendasi wisata di dalamnya dengan total 999+ wisata. <br> Link : <a href='https://public-api-wisata.vercel.app/'>disini</a>"
+  },
+  {
+    "id": 23,
+    "nama": "RESTFul Laravel Sanctum",
+    "detail": "RESTFul API Laravel Sanctum",
+    "kategori": "Website",
+    "main_image": "/json/img/website16-main.png",
+    "sub_images": [
+      "/json/img/website16-sub1.png",
+      "/json/img/website16-sub2.png",
+      "/json/img/website16-sub3.png",
+      "/json/img/website16-sub4.png"
+    ],
+    "description": "<p>Berikut adalah dokumentasi pembuatan RESTFull API menggunakan laravel 10 dengan validasi atau authentikasi menggunakan Sanctum</p> <p>Penjelasan secara singkat seperti berikut : </p> <ul> <li>Studi kasusnya adalah Product (DB lewat migration / import folder DB) </li> <li>Terdapat 2 ability atau role yaitu admin dan user</li> <li>Role admin dapat melakukan CRUD Product</li> <li>Role user hanya bisa melakukan Read Product</li><li>Terdapat 4 method yaitu GET,POST,PACTH dan DELETE</li><li>Ada 7 Request Login,Register,List Product,Store,Edit dan Delete Product</li><li>Dimana setiap Request List Product, dan CRUD Product diharuskan membawa token</li><li>Token kadaluarsa di 6 menit kedepan (bisa di edit di AuthController.php</li></ul> <br> Penjelasan, Gambar dan Kode lebih jelas di Readme Link : <a href='https://github.com/DevanoAlif22/RestFullAPI-Laravel-Sanctum'>disini</a>"
+  },
+  {
+    "id": 11,
+    "nama": "RESTFul Node JS",
+    "detail": "RESTFul Node JS",
+    "kategori": "Website",
+    "main_image": "/json/img/website10-main.png",
+    "sub_images": [
+      "/json/img/website10-sub1.png",
+      "/json/img/website10-sub2.png",
+      "/json/img/website10-sub3.png",
+      "/json/img/website10-sub4.png"
+    ],
+    "description": "Membuat RestFul API Menggunakan Node JS. Dapat melakukan request get, post, delete dan put. Untuk case nya yaitu Contact dan Address yang juga di lengkapi oleh sistem Authentikasi dan database MYSQL<br> Dokumentasi API Lengkap : <a href='https://github.com/DevanoAlif22/arsitektur-nodejs-devano/tree/master/docs'>disini</a> <br> Github Code : <a href='https://github.com/DevanoAlif22/arsitektur-nodejs-devano/tree/master'>disini</a>"
+  },
+  {
+    "id": 12,
+    "nama": "RESTFul PHP Native",
+    "detail": "RESTFul PHP Native",
+    "kategori": "Website",
+    "main_image": "/json/img/website9-main.png",
+    "sub_images": [
+      "/json/img/website9-sub1.png",
+      "/json/img/website9-sub2.png",
+      "/json/img/website9-sub3.png",
+      "/json/img/website9-sub4.png"
+    ],
+    "description": "Membuat RestFul API Menggunakan Bahasa Pemrograman PHP Native. Dapat melakukan request get, post, delete dan put. Untuk case nya yaitu Contact dan Address yang juga di lengkapi database MYSQL <br> Link : <a href='https://github.com/DevanoAlif22/restfull_native'>disini</a>"
+  },
+  {
+    "id": 13,
+    "nama": "Juara 2 WebDev",
+    "detail": "Juara 2 Lomba WebDev I/OFEST UNTAR 2023",
+    "kategori": "Pengalaman",
+    "main_image": "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005131/portfolio/pengalaman-1/pengalaman1-main_rw1iy4.png",
+    "sub_images": [
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005249/portfolio/pengalaman-1/website3-sub3_fsoj2l.png",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005251/portfolio/pengalaman-1/website3-sub1_rh50rq.png",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005260/portfolio/pengalaman-1/website3-sub4_vwftak.png",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005262/portfolio/pengalaman-1/website3-sub2_dcarq2.png"
+    ],
+    "description": "Tepat pada tanggal 25 Mei 2023 saya dan rekan tim mengikuti kompetisi I/OFEST Universitas Tarumanegara 'Web Development' tingkat nasional dan berhasil meraih 'Juara 2' di kompetisi tersebut. Kami membawa Website Health Care (lebih detail di My Work) dalam perlombaan ini. Kami sangat bangga karena dapat berkompetisi dengan teman-teman dari Universitas Negeri seperti Universitas Indonesia, Universitas Brawijaya dan yang lainnya <br> Github Code : <a href='https://github.com/DevanoAlif22/Health-Care'>disini</a>"
+  },
+  {
+    "id": 14,
+    "nama": "Finalist WebDev",
+    "detail": "Finalis Lomba WebDev INVFEST 8.0 2023",
+    "kategori": "Pengalaman",
+    "main_image": "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005663/portfolio/pengalaman-2/pengalaman2-main_al5xve.jpg",
+    "sub_images": [
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005665/portfolio/pengalaman-2/pengalaman2-sub1_cdl4ql.png",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005692/portfolio/pengalaman-2/website4-sub3_cdvqmf.png",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005692/portfolio/pengalaman-2/website4-sub2_c69hiy.png",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005694/portfolio/pengalaman-2/website4-sub1_olysg8.png"
+    ],
+    "description": "Tepat pada Desember 2023 kami mengikuti lomba Web Application yang diadakan oleh IT Telkom Purwokerto dan tim saya sebagai ketua tim, dimana tim saya mendapatkan prestasi finalis 5 besar terbaik. Ini adalah kali ketiga tim kami mengikuti lomba website. Kami mengangkat permasalahan kesehatan mental yang akhir-akhir ini lagi maraknya dan kami berinisiatif membuat website dengan nama Mental Health (lebih detail di My Work) yang bisa di cek di link github kami <a href='https://github.com/DevanoAlif22/Mental-Health'>disini</a>"
+  },
+  {
+    "id": 15,
+    "nama": "Finalist WebDev",
+    "detail": "Finalis Lomba WebDev INVFEST 7.0 2022",
+    "kategori": "Pengalaman",
+    "main_image": "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005854/portfolio/pengalaman-3/pengalaman3-main_j3pxal.png",
+    "sub_images": [
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005881/portfolio/pengalaman-3/website5-sub2_rodsz6.png",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005882/portfolio/pengalaman-3/website5-sub4_y61s8k.png",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005883/portfolio/pengalaman-3/website5-sub1_nq8gbh.png",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723005888/portfolio/pengalaman-3/website5-sub3_ihvgcx.png"
+    ],
+    "description": "Tepat pada tanggal 19 November 2022 saya dan rekan tim saya ikut serta mengikuti lomba 'Web Application' yang di selenggarakan oleh program studi teknik informatika Institut Teknologi Telkom Purwokerto. Kami membawa website AdaSampah dalam perlombaan ini dan berhasil menjadi Finalis 5 besar."
+  },
+  {
+    "id": 16,
+    "nama": "Coding Talent",
+    "detail": "Mentor Coding Talent SD Mumtaz Sidoarjo",
+    "kategori": "Pengalaman",
+    "main_image": "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006083/portfolio/pengalaman-4/pengalaman4-main_oi9hi0.jpg",
+    "sub_images": [
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006086/portfolio/pengalaman-4/pengalaman4-sub2_tekea9.jpg",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006084/portfolio/pengalaman-4/pengalaman4-sub4_zkvcyd.jpg",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006080/portfolio/pengalaman-4/pengalaman4-sub3_hnqtpg.jpg",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006081/portfolio/pengalaman-4/pengalaman4-sub1_sigwmd.jpg"
+    ],
+    "description": "Di tengah liburan semester 3, saya mendapatkan kesempatan untuk menjadi mentor atau pengajar di kelas 'Talent Coding' SD Muhammadiyah 1&2 Taman. Saya sangat senang bisa sharing ilmu seputar teknologi kepada adik-adik yang super keren dan pintar ini. Ternyata negeri ini tidak kekurangan generasi yang unggul dan antusias dalam dunia Teknologi"
+  },
+  {
+    "id": 17,
+    "nama": "MC SurabayaDev Anniv 10th",
+    "detail": "MC Main Event SurabayaDev Anniversary 10th",
+    "kategori": "Pengalaman",
+    "main_image": "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006254/portfolio/pengalaman-5/pengalaman5-main_z1oea0.png",
+    "sub_images": [
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006251/portfolio/pengalaman-5/pengalaman5-sub2_glqpdg.jpg",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006252/portfolio/pengalaman-5/pengalaman5-sub1_zf3xwt.jpg",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006255/portfolio/pengalaman-5/pengalaman5-sub4_bzlkni.jpg",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006257/portfolio/pengalaman-5/pengalaman5-sub3_oer5nm.jpg"
+    ],
+    "description": "SurabayaDev Anniversary 10th adalah Event yang terdiri dari beberapa agenda yaitu [ Meetup Roadshow - UI/UX Competition - Coding Competition dan Main event ] yang di selenggarakan oleh SurabayaDev dan di support langsung oleh Himpunan Mahasiswa Teknik Informatika Universitas 17 Agustus 1945 Surabaya untuk memperingati ulang tahun Komunitas Surabaya Developer yang ke 10. <br> Dalam kesempatan ini saya turut ber kontribusi sebagai PIC UI/UX Competition, MC UI/UX Competition dan MC di Main Event SurabayaDev Anniv 10th. Saya sangat senang sekali karena sebelumnya hanya bisa ikut lomba saja, di kesempatan ini saya menjadi penanggung jawab lomba UIUX dan MC di Main Event.<br>Sangat bersyukur sekali, karena bisa ber tatap muka secara langsung dengan Pak Sandhika Galih Sandhika Galih selaku Founder dari WPU."
+  },
+  {
+    "id": 19,
+    "nama": "MC HacktoberFest 2023",
+    "detail": "MC HacktoberFest 2023",
+    "kategori": "Pengalaman",
+    "main_image": "/json/img/pengalaman7-main.jpg",
+    "sub_images": [
+      "/json/img/pengalaman7-sub1.jpg",
+      "/json/img/pengalaman7-sub4.jpg",
+      "/json/img/pengalaman7-sub3.jpg",
+      "/json/img/pengalaman7-sub4.jpg"
+    ],
+    "description": "Tepat pada tanggal 22 Oktober 2023, saya di amanahi untuk menjadi moderator di offline meetup hacktoberfest 2023 : A Celebration of Code and Collaboration. Hacktoberfest adalah event offline dengan kolaborasi komunitas IT Terbesar di Surabaya, dimana terdapat 2 materi yaitu 'Github Action' dan 'Penetration Test' yang di selenggarakan di universitas 17 Agustus 1945 Surabaya. Event ini di organisir langsung oleh 12 komunitas IT di Surabaya dan di support oleh jagoan hosting, indocenter dan hacktiv8"
+  },
+  {
+    "id": 20,
+    "nama": "MC Workshop Hacktiv8",
+    "detail": "MC Workshop Hacktiv8",
+    "kategori": "Pengalaman",
+    "main_image": "/json/img/pengalaman8-main.jpg",
+    "sub_images": [
+      "/json/img/pengalaman8-sub1.jpg",
+      "/json/img/pengalaman8-sub2.jpg",
+      "/json/img/pengalaman8-sub3.jpg",
+      "/json/img/pengalaman8-sub4.png"
+    ],
+    "description": "Tepat pada tanggal 27 Mei 2023, saya di amanahi oleh tim Surabaya Developer dan Hacktiv8 Indonesia Sebagai moderator di acara Workshop 'Membuat Tampilan Aplikasi Website dengan Javascript' dengan pembicara kak Riza Fahmi"
+  },
+  {
+    "id": 21,
+    "nama": "Workshop Web Programming2",
+    "detail": "Pemateri Workshop Web Programming HIMSI ITATS",
+    "kategori": "Pengalaman",
+    "main_image": "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006701/portfolio/pengalaman-6/pengalaman6-main_sz8t3r.jpg",
+    "sub_images": [
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006702/portfolio/pengalaman-6/pengalaman6-sub3_abbxwv.jpg",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006702/portfolio/pengalaman-6/pengalaman6-sub2_u040y0.jpg",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006701/portfolio/pengalaman-6/pengalaman6-sub4_th6oaz.jpg",
+      "https://res.cloudinary.com/dbb2obawu/image/upload/v1723006706/portfolio/pengalaman-6/pengalaman6-sub1_hwxl6w.png"
+    ],
+    "description": "Saya dan tim kampus Institut Teknologi Adhi Tama Surabaya lainnya menjalankan program 'Workshop Web Programming' di SMK Rajasa Surabaya pada tanggal 17 November, 29 November dan 1 Desember 2023 yang di selenggarakan oleh HIMSI ITATS. <br> Kami sharing materi tentang pembuatan website seperti HTML, CSS dan bootstrap beserta praktik langsung membuat website portofolio dengan modul yang kami siapkan di link berikut devanorama321.github.io. Senang sekali bisa berkumpul dengan orang-orang yang ahli di bidangnya dan bisa sharing ilmu ke temen-temen SMK"
+  }
+]
