@@ -132,7 +132,7 @@
 
         const id = getParameterByName("id");
 
-        fetch("/json/data.json")
+        fetch("/json/dataweb.json")
           .then((response) => response.json())
           .then((data) => {
             const detailData = data.find((item) => item.id == id);

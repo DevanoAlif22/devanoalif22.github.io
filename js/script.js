@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/json/data.json")
+  fetch("/json/dataweb.json")
     .then((response) => response.json())
     .then((data) => {
       // Function untuk menambahkan elemen website
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/json/data.json")
+  fetch("/json/dataweb.json")
     .then((response) => response.json())
     .then((data) => {
       // Function untuk menambahkan elemen website
