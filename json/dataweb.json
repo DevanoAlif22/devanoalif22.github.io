@@ -27,6 +27,36 @@
     ],
     "description": "Plaza Surabaya (atau biasa disebut dengan nama sebelumnya Delta Plaza) adalah perbelanjaan di Surabaya. Mal ini didirikan pada tahun 1988 dengan penyewa - penyewa yang sudah terkenal sebagai perusahaan besar baik skala nasional maupun internasional antara lain McDonald's, Super Indo, Timezone, J.CO Donuts & Coffee, Pizza Hut, KFC, HokBen, Burger King, Matahari, Mixue, Richeese Factory dan masih banyak lagi. Pusat perbelanjaan ini terletak di Surabaya Pusat bersebelahan dengan Monumen Kapal Selam, dan terdapat pintu akses untuk mengakses monumen dari parkiran mal. Plaza Surabaya merupakan family mall yang berkonsep untuk menyediakan seluruh kebutuhan keluarga dalam satu tempat. <br> Saya ikut berkontribusi sebagai Backend dan Frontend untuk membuat dan mengembangkan website ini. Masa pembuatan adalah 2 bulan dan 6 bulan untuk tahap maintenance. <br><br> Website ini kami buat dengan Tech Stack berikut : <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Laravel, Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, PHP Mailer, Figma, Photoshop dan yang lainnya <br> Halaman : Home, Whats on, Career, Directory, Contact, CMS dan yang lainnya <br> Link :  <a href='http://www.plaza-surabaya.com'>disini</a>"
   },
+
+  {
+    "id": 20,
+    "nama": "Juara 1 Software Development",
+    "detail": "Juara 1 Lomba Software Development PEKAN IT UNSIKA 2024",
+    "kategori": "Pengalaman",
+    "main_image": "/json/img/pengalaman9-main.png",
+    "sub_images": [
+      "/json/img/pengalaman9-sub1.png",
+      "/json/img/pengalaman9-sub2.png",
+      "/json/img/pengalaman9-sub3.png",
+      "/json/img/pengalaman9-sub4.png"
+    ],
+    "description": "Tepat pada tanggal 22 September 2024 saya dan rekan tim mengikuti kompetisi PEKAN IT 2024 UNSIKA 'Software Development' tingkat nasional dan berhasil meraih 'Juara 1' di kompetisi tersebut. Kami membawa Website Kelas Setera (lebih detail di My Work) dalam perlombaan ini. Kami membawa tema pendidikan dimana website ini adalah E-Learning dengan fitur Voice to Action, Text to voice dan Text to Sign Video <br> Selengkapnya : <a href='https://itats.ac.id/mahasiswa-sistem-informasi-itats-raih-juara-1-dalam-perlombaan-software-development-di-pekan-it-2024/'>disini</a>"
+  },
+
+  {
+    "id": 39,
+    "nama": "Graha Office",
+    "detail": "Website Graha Office",
+    "kategori": "Website",
+    "main_image": "/json/img/website19-main.png",
+    "sub_images": [
+      "/json/img/website19-sub1.png",
+      "/json/img/website19-sub2.png",
+      "/json/img/website19-sub3.png",
+      "/json/img/website19-sub4.png"
+    ],
+    "description": "Graha Office adalah : <br> 1. website E-commerce penyewaan ruangan meeting dan kantor virtual <br> 2. website yang menambah lingkup layanan PT Otak Kanan yang semula hanya fokus pada layanan internal, pada website ini dapat mengelola layanan mitra juga <br> 3. Website dengan fitur pembelian layanan, daftar menjadi mitra, membuat layanan, ambil keuntungan penjualan dan yang lainnya <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Laravel, Tailwind <br> Database : Mysql <br> Lainnya : HTML, CSS, Figma, Photoshop dan yang lainnya <br>"
+  },
   {
     "id": 3,
     "nama": "Health Care",
@@ -54,6 +84,21 @@
       "/json/img/website4-sub4.png"
     ],
     "description": "Mental Health adalah Website kesehatan dengan beberapa fitur kesehatan seperti Sistem Pakar, Artikel Kesehatan dan Tempat Bercerita. Website ini kita ikutkan kompetisi web development dan berhasil masuk ke finalis 5 besar (Penjelasan lebih jelas di My Experience). Saya berkontribusi sebagai Backend dan Frontend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : PHP dan JS <br> Framework : Laravel, Bootstrap <br> Database : Mysql <br> Lainnya : HTML, CSS, PHP Mailer, Midtrans, Figma, Photoshop dan yang lainnya <br> Halaman : Home, Sistem Pakar, Artikel, Cerita, Pembayaran, CMS dan yang lainnya  <br> Github Code : <a href='https://github.com/DevanoAlif22/Mental-Health'>disini</a>"
+  },
+
+  {
+    "id": 40,
+    "nama": "SMKN 2 Mojokerto",
+    "detail": "Website SMKN 2 Mojokerto",
+    "kategori": "Website",
+    "main_image": "/json/img/website20-main.png",
+    "sub_images": [
+      "/json/img/website20-sub1.png",
+      "/json/img/website20-sub2.png",
+      "/json/img/website20-sub3.png",
+      "/json/img/website20-sub4.png"
+    ],
+    "description": "Website SMKN 2 Mojokerto adalah website portal sekolah untuk mamanajemen informasi tentang sekolah  : <br> 1. Konversi dari Golang ke Laravel dalam pembuatan Backend API <br> 2.Konversi view user dari Golang ke Blade Laravel <br> 3. Membuat Dashboard admin untuk memanajemen informasi menggunakan Liblary React JS <br> 4. Memiliki fitur CRUD jurusan, artikel, tugas dan yang lainnya <br> Bahasa Pemrograman : Javascript <br> Framework : express, Tailwind <br> Database : Mysql <br> Lainnya : Reaxat JS Figma, Photoshop dan yang lainnya <br>"
   },
   {
     "id": 5,
@@ -140,20 +185,6 @@
     "description": "Slicing Adidas adalah Pembuatan website dari website yang sudah ada, yaitu adidas. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend dan Backend di website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda, Keranjang, Detail <br> Link : <a href='https://devanoalif22.github.io/Slicing-figma-adidas/html/index.html'>disini</a> <br> Source Code : <a href='https://github.com/DevanoAlif22/Slicing-figma-adidas'>disini</a>"
   },
   {
-    "id": 10,
-    "nama": "Slicing KFC",
-    "detail": "Website Slicing KFC",
-    "kategori": "Website",
-    "main_image": "/json/img/website11-main.png",
-    "sub_images": [
-      "/json/img/website11-sub1.png",
-      "/json/img/website11-sub2.png",
-      "/json/img/website11-sub3.png",
-      "/json/img/website11-sub4.png"
-    ],
-    "description": "Slicing KFC adalah Pembuatan website dari website yang sudah ada, yaitu KFC. Pada website ini saya membuat berdasarkan desain website yang sudah ada. Saya berkontribusi sebagai Frontend website saat membuat dan pengembangan website ini. <br> Bahasa Pemrograman : JS <br> Framework : Bootstrap <br> Database : - <br> Lainnya : HTML, CSS, Photoshop dan yang lainnya <br> Halaman : Beranda"
-  },
-  {
     "id": 25,
     "nama": "Node JS Clone Twitter",
     "detail": "Node JS Clone Twitter",
@@ -208,20 +239,6 @@
       "/json/img/website10-sub4.png"
     ],
     "description": "Membuat RestFul API Menggunakan Node JS. Dapat melakukan request get, post, delete dan put. Untuk case nya yaitu Contact dan Address yang juga di lengkapi oleh sistem Authentikasi dan database MYSQL<br> Dokumentasi API Lengkap : <a href='https://github.com/DevanoAlif22/arsitektur-nodejs-devano/tree/master/docs'>disini</a> <br> Github Code : <a href='https://github.com/DevanoAlif22/arsitektur-nodejs-devano/tree/master'>disini</a>"
-  },
-  {
-    "id": 12,
-    "nama": "RESTFul PHP Native",
-    "detail": "RESTFul PHP Native",
-    "kategori": "Website",
-    "main_image": "/json/img/website9-main.png",
-    "sub_images": [
-      "/json/img/website9-sub1.png",
-      "/json/img/website9-sub2.png",
-      "/json/img/website9-sub3.png",
-      "/json/img/website9-sub4.png"
-    ],
-    "description": "Membuat RestFul API Menggunakan Bahasa Pemrograman PHP Native. Dapat melakukan request get, post, delete dan put. Untuk case nya yaitu Contact dan Address yang juga di lengkapi database MYSQL <br> Link : <a href='https://github.com/DevanoAlif22/restfull_native'>disini</a>"
   },
   {
     "id": 13,
@@ -309,30 +326,16 @@
   },
   {
     "id": 19,
-    "nama": "MC HacktoberFest 2023",
-    "detail": "MC HacktoberFest 2023",
+    "nama": "MC Jatim Developer Day 2024",
+    "detail": "MC Jatim Developer Day 2024",
     "kategori": "Pengalaman",
-    "main_image": "/json/img/pengalaman7-main.jpg",
+    "main_image": "/json/img/pengalaman10-main.jpg",
     "sub_images": [
-      "/json/img/pengalaman7-sub1.jpg",
-      "/json/img/pengalaman7-sub4.jpg",
-      "/json/img/pengalaman7-sub3.jpg",
-      "/json/img/pengalaman7-sub4.jpg"
+      "/json/img/pengalaman10-sub1.jpg",
+      "/json/img/pengalaman10-sub2.jpg",
+      "/json/img/pengalaman10-sub3.jpg",
+      "/json/img/pengalaman10-sub4.jpg"
     ],
-    "description": "Tepat pada tanggal 22 Oktober 2023, saya di amanahi untuk menjadi moderator di offline meetup hacktoberfest 2023 : A Celebration of Code and Collaboration. Hacktoberfest adalah event offline dengan kolaborasi komunitas IT Terbesar di Surabaya, dimana terdapat 2 materi yaitu 'Github Action' dan 'Penetration Test' yang di selenggarakan di universitas 17 Agustus 1945 Surabaya. Event ini di organisir langsung oleh 12 komunitas IT di Surabaya dan di support oleh jagoan hosting, indocenter dan hacktiv8"
-  },
-  {
-    "id": 20,
-    "nama": "MC Workshop Hacktiv8",
-    "detail": "MC Workshop Hacktiv8",
-    "kategori": "Pengalaman",
-    "main_image": "/json/img/pengalaman8-main.jpg",
-    "sub_images": [
-      "/json/img/pengalaman8-sub1.jpg",
-      "/json/img/pengalaman8-sub2.jpg",
-      "/json/img/pengalaman8-sub3.jpg",
-      "/json/img/pengalaman8-sub4.png"
-    ],
-    "description": "Tepat pada tanggal 27 Mei 2023, saya di amanahi oleh tim Surabaya Developer dan Hacktiv8 Indonesia Sebagai moderator di acara Workshop 'Membuat Tampilan Aplikasi Website dengan Javascript' dengan pembicara kak Riza Fahmi"
+    "description": "Tepat pada tanggal 2 November 2024 adalah diselenggarakannya 'Jatim Developer Day 2024' dengan tema 'Sinergi dan Kolaborasi : Membangun Ekosistem IT di Jawa Timur Melalui Komunitas'. JDD 2024 adalah Acara tahunan yang mengumpulkan talenta teknologi dari seluruh Jawa Timur.Terdapat 3 Main Speaker yaitu Erico Darmawan Handoyo, Setia Budi dan Doni Rubiagatra  dan 10+ Kelas Paralel yang di isi oleh 15+ pembicara. Pada event ini, saya berkesempatan untuk berkontribusi pada divisi Dev dengan membantu slicing beberapa section pada website jatimdevday.id dan menjadi Moderator atau MC."
   }
 ]

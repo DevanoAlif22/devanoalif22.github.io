@@ -224,6 +224,20 @@
     "description": "Membuat RestFul API Menggunakan Bahasa Pemrograman PHP Native. Dapat melakukan request get, post, delete dan put. Untuk case nya yaitu Contact dan Address yang juga di lengkapi database MYSQL <br> Link : <a href='https://github.com/DevanoAlif22/restfull_native'>disini</a>"
   },
   {
+    "id": 20,
+    "nama": "Juara 1 Software Development",
+    "detail": "Juara 2 Lomba Software Development PEKAN IT UNSIKA 2024",
+    "kategori": "Pengalaman",
+    "main_image": "/json/img/pengalaman9-main.png",
+    "sub_images": [
+      "/json/img/pengalaman9-sub1.png",
+      "/json/img/pengalaman9-sub2.png",
+      "/json/img/pengalaman9-sub3.png",
+      "/json/img/pengalaman9-sub4.png"
+    ],
+    "description": "Tepat pada tanggal 22 September 2024 saya dan rekan tim mengikuti kompetisi PEKAN IT 2024 UNSIKA 'Software Development' tingkat nasional dan berhasil meraih 'Juara 1' di kompetisi tersebut. Kami membawa Website Kelas Setera (lebih detail di My Work) dalam perlombaan ini. Kami membawa tema pendidikan dimana website ini adalah E-Learning dengan fitur Voice to Action, Text to voice dan Text to Sign Video <br> Selengkapnya : <a href='https://itats.ac.id/mahasiswa-sistem-informasi-itats-raih-juara-1-dalam-perlombaan-software-development-di-pekan-it-2024/'>disini</a>"
+  },
+  {
     "id": 13,
     "nama": "Juara 2 WebDev",
     "detail": "Juara 2 Lomba WebDev I/OFEST UNTAR 2023",
@@ -306,20 +320,6 @@
       "/json/img/pengalaman7-sub4.jpg"
     ],
     "description": "Tepat pada tanggal 22 Oktober 2023, saya di amanahi untuk menjadi moderator di offline meetup hacktoberfest 2023 : A Celebration of Code and Collaboration. Hacktoberfest adalah event offline dengan kolaborasi komunitas IT Terbesar di Surabaya, dimana terdapat 2 materi yaitu 'Github Action' dan 'Penetration Test' yang di selenggarakan di universitas 17 Agustus 1945 Surabaya. Event ini di organisir langsung oleh 12 komunitas IT di Surabaya dan di support oleh jagoan hosting, indocenter dan hacktiv8"
-  },
-  {
-    "id": 20,
-    "nama": "MC Workshop Hacktiv8",
-    "detail": "MC Workshop Hacktiv8",
-    "kategori": "Pengalaman",
-    "main_image": "/json/img/pengalaman8-main.jpg",
-    "sub_images": [
-      "/json/img/pengalaman8-sub1.jpg",
-      "/json/img/pengalaman8-sub2.jpg",
-      "/json/img/pengalaman8-sub3.jpg",
-      "/json/img/pengalaman8-sub4.png"
-    ],
-    "description": "Tepat pada tanggal 27 Mei 2023, saya di amanahi oleh tim Surabaya Developer dan Hacktiv8 Indonesia Sebagai moderator di acara Workshop 'Membuat Tampilan Aplikasi Website dengan Javascript' dengan pembicara kak Riza Fahmi"
   },
   {
     "id": 21,
